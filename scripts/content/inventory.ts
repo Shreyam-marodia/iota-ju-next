@@ -57,6 +57,11 @@ interface MediaItem extends Review {
   duplicateOf: string[]
 }
 
+interface TextBlock extends Review {
+  id: string; pageUrl: string; oldPath: string; type: 'text'
+  bytes: number; sha256: string; text: string
+}
+
 const sha = (b: Buffer | string) => createHash('sha256').update(b).digest('hex')
 const blank: Review = { decision: 'unresolved', reason: '', owner: '' }
 const abs = (href: string, from: string) => {
@@ -213,10 +218,53 @@ async function main() {
       m.duplicateOf = group.filter((g) => g !== m).map((g) => g.url).sort()
 
   const manifest = {
-    sourceRevision: REVISION, baseUrl: BASE,
+    sourceRevision: REVISION,
+    sourceRepository: 'https://github.com/Soham-47/iota-ju.git',
+    sourcePath: 'C:/Users/khush/OneDrive/Documents/old_iota_ju/iota-ju',
+    sourceLock: {
+      status: 'unconfirmed',
+      reason: 'The orchestrator did not provide an accessible source-lock record; local git metadata is recorded provisionally.',
+      requestedFrom: 'orchestrator',
+    },
+    baseUrl: BASE,
     pages: [...pages.values()].sort((a, b) => (a.url < b.url ? -1 : 1)),
+    textBlocks: [...pages.values()].map((p): TextBlock => ({
+      ...pick(p), id: `text:${new URL(p.url).pathname}`, pageUrl: p.url,
+      oldPath: new URL(p.url).pathname, type: 'text', bytes: Buffer.byteLength(p.text, 'utf8'),
+      sha256: sha(p.text), text: p.text,
+    })).sort((a, b) => (a.id < b.id ? -1 : 1)),
     media,
     externalEmbedsAndFiles: external,
+    legacyServices: [{
+      id: 'workshop-qa',
+      oldPath: '/drone-workshop/qa-portal/',
+      pageUse: 'Separate Drone Workshop Q&A service and data; not part of the new app.',
+      type: 'service',
+      decision: 'exclude',
+      reason: 'Exclude workshop Q&A from the new app; retain the old service and data. The orchestrator must approve the old-URL response.',
+      owner: 'orchestrator',
+      sourcePath: 'frontend/drone-workshop/qa-portal/',
+    }],
+    manualChecks: [
+      { section: 'home', oldUrl: `${BASE}/home`, sourcePath: 'frontend/HOME/homepage-of-iota-main/home.html', result: 'pass: page served and homepage text/media references were traced.' },
+      { section: 'about', oldUrl: `${BASE}/about`, sourcePath: 'frontend/ABOUT US/about us.html', result: 'pass: page served and visible text plus map embed were traced.' },
+      { section: 'events', oldUrl: `${BASE}/events`, sourcePath: 'frontend/EVENTS (2)/views/events.html', result: 'pass: listing served and event detail links were traced.' },
+      { section: 'projects', oldUrl: `${BASE}/projects`, sourcePath: 'frontend/projects/projects.html', result: 'pass: listing served; AGV link traced to autonomous-mobility detail.' },
+      { section: 'team', oldUrl: `${BASE}/team`, sourcePath: 'frontend/team/team.html', result: 'pass: team page served; portraits and department text require identity review.' },
+      { section: 'alumni', oldUrl: `${BASE}/alumni`, sourcePath: 'frontend/ALUMNI/alumni.html', result: 'pass: alumni page served; portraits and YouTube embed traced.' },
+      { section: 'timeline', oldUrl: `${BASE}/timeline`, sourcePath: 'frontend/TIMELINE/timeline.html', result: 'pass: timeline page served and historical content was traced.' },
+      { section: 'AGV detail', oldUrl: `${BASE}/project/autonomous-mobility`, sourcePath: 'frontend/projects/project-details/autonomous-mobility.html', result: 'pass: linked AGV detail served; YouTube demo and Unified AGV Tech Stack text traced.' },
+      { section: 'history/detail', oldUrl: `${BASE}/events/lord-of-the-rings-2025`, sourcePath: 'frontend/EVENTS (2)/views/lordOfRings25.html', result: 'pass: linked historical event route served and legacy-case path recorded.' },
+    ],
+    openQuestions: [
+      { category: 'source-lock', question: 'What orchestrator-approved source repository and immutable commit should replace the provisional local lock?', owner: 'orchestrator' },
+      { category: 'identity', question: 'Which same-name people and portraits are distinct? Do not merge until Ritendu confirms identity.', owner: 'Ritendu' },
+      { category: 'dates', question: 'Which event/project dates and current statuses are authoritative where source copy is stale or inconsistent?', owner: 'orchestrator' },
+      { category: 'departments', question: 'Confirm department and role text before migration, including the known Raunak Panja correction.', owner: 'Ritendu' },
+      { category: 'links', question: 'Confirm destinations and retirement behavior for legacy aliases, external embeds, stale actions and missing targets.', owner: 'Sourasish' },
+      { category: 'missing-files', question: 'Review every crawler review item and any JavaScript/CSS-built or unavailable asset before import.', owner: 'Shreyam' },
+      { category: 'workshop-qa', question: 'Approve the old-URL response for the excluded workshop Q&A service; keep its service and data untouched.', owner: 'orchestrator' },
+    ],
     reviewItems: reviewItems.sort((a, b) => (a.url + a.kind < b.url + b.kind ? -1 : 1)),
   }
   await mkdir(path.dirname(OUT), { recursive: true })

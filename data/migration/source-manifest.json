@@ -1,11 +1,19 @@
 {
   "sourceRevision": "edfc713c0761bc4ff3cf42e29631082628fe9abc",
+  "sourceRepository": "https://github.com/Soham-47/iota-ju.git",
+  "sourcePath": "C:/Users/khush/OneDrive/Documents/old_iota_ju/iota-ju",
+  "sourceLock": {
+    "status": "unconfirmed",
+    "reason": "The orchestrator did not provide an accessible source-lock record; local git metadata is recorded provisionally.",
+    "requestedFrom": "orchestrator"
+  },
   "baseUrl": "http://localhost:4173",
   "pages": [
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/about",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -64,13 +72,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "People page. Same-name entries stay separate until identity review. Old URL destination to be set for the redirect runtime.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/alumni",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -151,13 +159,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -224,13 +232,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/automotive-electronics-seminar",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -255,13 +263,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/connexion",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -293,13 +301,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/drone-workshop",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -328,13 +336,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/innovatia",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -362,13 +370,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/iota-bidwars",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -397,13 +405,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/lord-of-the-ring",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -432,13 +440,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events/lord-of-the-rings"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/lord-of-the-rings",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -451,13 +459,13 @@
       "media": [],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/events/lord-of-the-rings-2025",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -485,13 +493,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/events"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/home",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -550,13 +558,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/autonomous-mobility",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -582,13 +590,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/deskbot",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -611,13 +619,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/drone",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -640,13 +648,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/gamepad",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -669,13 +677,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/ishara",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -703,13 +711,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/mediguard",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -732,13 +740,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/netralink",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -765,13 +773,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/road-anomaly",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -795,13 +803,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/smart-ebook-reader",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -827,13 +835,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/spinsafe",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -856,13 +864,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/temperlink",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -886,13 +894,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/project/voxvision",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -919,13 +927,13 @@
       ],
       "inboundFrom": [
         "http://localhost:4173/projects"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/projects",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -1005,13 +1013,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "People page. Same-name entries stay separate until identity review. Old URL destination to be set for the redirect runtime.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/team",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -1205,13 +1213,13 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
       "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/timeline",
       "status": 200,
       "contentType": "text/html; charset=utf-8",
@@ -1268,8 +1276,360 @@
         "http://localhost:4173/projects",
         "http://localhost:4173/team",
         "http://localhost:4173/timeline"
-      ],
-      "reviewStatus": "proposed"
+      ]
+    }
+  ],
+  "textBlocks": [
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/about",
+      "pageUrl": "http://localhost:4173/about",
+      "oldPath": "/about",
+      "type": "text",
+      "bytes": 1632,
+      "sha256": "db055abd8de96393ab70c6799aed59e4577be3330032dec38c160308cd6838db",
+      "text": "About Us - IOTA Home Events Projects Team Timeline Alumni About Us Jadavpur University · Since 2023 WE ARE IOTA IOTA is Jadavpur University's IoT Applications Club: a student community that works where a circuit, a piece of code, and a real place meet. Our work has included autonomous drones and vehicles, Netra-Link's assistive goggle, and edge AI projects that make a measurable claim and show how the prototype gets there. Our Mission Give members room to take an idea from a sketch and a circuit to a working demonstration. The club grows by building together, documenting what works, and sharing the hard parts with the next team. Our Vision Keep student-led IoT, robotics, and hardware work practical, curious, and open to inspection—whether it is a vehicle, an assistive interface, or a sensor-driven system. 25+ Members 2023 Founded 15+ Events What We Do Build and test Teams turn ideas into physical prototypes, from drone automation and autonomous vehicles to sensor-based systems such as SpinSafe. Learn in public Workshops, seminars, hackathons, and events such as Connexion, Innovatia, and Lord of the Ring keep the club's technical work connected to its community. Connect disciplines Robotics, embedded systems, and AI meet in projects such as Netra-Link, Ishara, Road Anomaly Detection, and our autonomous mobility work. Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Get in Touch iotajuofficial@gmail.com Send Message &copy; 2025 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "People page. Same-name entries stay separate until identity review. Old URL destination to be set for the redirect runtime.",
+      "owner": "Ritendu",
+      "reviewStatus": "proposed",
+      "id": "text:/alumni",
+      "pageUrl": "http://localhost:4173/alumni",
+      "oldPath": "/alumni",
+      "type": "text",
+      "bytes": 1094,
+      "sha256": "d470f8e05ddcc4cb8c89f162da38b96427e04e9876b7a27c74e0d5fbf4c02b5b",
+      "text": "Alumni - IOTA Home Events Projects Team Timeline Alumni About Us OUR LEGACY THE FOUNDERS Honoring the pioneers who built the foundations of IOTA. Our alumni continue to innovate and lead in top global tech companies and research institutions. Agnish Saha Class of 2026 Founding Architect Soumyadeep Manna Class of 2026 Engineeering Pioneer Soumyadeep Dutta Class of 2026 Relations Manager Abhidipan Samanta Class of 2026 Communications Lead Sayandeep Pramanik Class of 2026 UI/UX Designer Arya Pandit Class of 2026 Founding Member/Strategy Lead Srinjan Bhattacharjee Class of 2026 Engineering Pioneer Sauptik Maiti Class of 2026 Engineeering Pioneer Soham Das Class of 2026 Content Strategist Saptarshi Koley Class of 2026 Visual Designer Shirshendu Mandal Class of 2026 Outreach Coordinator Words from our founders Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Get in Touch iotajuofficial@gmail.com &copy; 2025 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events",
+      "pageUrl": "http://localhost:4173/events",
+      "oldPath": "/events",
+      "type": "text",
+      "bytes": 2261,
+      "sha256": "ad605472b8b8bd1e398e3659b5960ceb74fae366fe5399b4864d805a5a364b61",
+      "text": "Events - IOTA Home Events Projects Team Timeline Alumni About Us OUR EVENTS Discover our top events from high-stakes digital auctions to exhilarating Robo Sumo arenas. Compete, build, and push the edge of engineering. Coming Soon Innovatia 2026 Hands-on with minds-on! IOTA JU presents the 2nd Edition of its immersive automation session, where participants bring their own smart devices to life using Curiosity Hardware Kits. Completed · April 10, 2026 Drone Development Workshop Master the art of advanced custom drone engineering. A hands-on technical session on drone software, avionics, and hardware design. View Details Completed · Srijan 2026 IoT Bidwars 2026 Unite strategy and smart circuitry. An intense online quiz followed by a high-stakes digital auction to secure components for live IoT Blitz Circuit making. View Details Completed · Srijan 2026 Lord of the Ring 2026 The pinnacle of robotic competition. Navigate through Wired and Wireless categories in electrifying elimination rounds where every match tests the very limits of design and control. View Details Completed · Jan 10, 2026 Connexion 2025 IOTA's flagship hackathon designed exclusively for freshmen to dive into the exciting world of IoT. A platform to connect, collaborate, and create innovative solutions to real-world problems. View Details Completed · July 3, 2025 Innovatia 2025 The flagship event of IOTA, bringing together innovators and tech enthusiasts for a celebration of technology, creativity, and sustainable innovation for a better tomorrow. View Details Completed · Srijan 2025 Lord of the Ring 2025 Relive the excitement of Srijan 2025. Engineering brilliance meets tactical mastery in the exhilarating Robo Sumo arena. View Details Completed · Technical Seminar Automotive Electronics A deep dive into the electronics driving tomorrow's vehicles. Learn about sensor integration, ECU control, and autonomous tech. View Details Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Jadavpur University, Kolkata, WB 700032 Get in Touch iotajuofficial@gmail.com Send Message &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/automotive-electronics-seminar",
+      "pageUrl": "http://localhost:4173/events/automotive-electronics-seminar",
+      "oldPath": "/events/automotive-electronics-seminar",
+      "type": "text",
+      "bytes": 458,
+      "sha256": "c00e81f01ccbc2fbb536ff56c0e3f66d9dc4a8e3f12e545eb768b5d6d9e9b6a0",
+      "text": "Automotive Electronics Seminar - IOTA Home Events Projects Team Timeline Alumni About Us Seminar 2026 Seminar on Automotive Electronics One day seminar on Automotive Electronics And The Potential Application on AI in Automotive, Organized by IOT Applications Club, Jadavpur University in collaboration with IEEE COMSOC And IEEE CAS Seminar Day February 28, 2026 Back to Events Event Gallery IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/connexion",
+      "pageUrl": "http://localhost:4173/events/connexion",
+      "oldPath": "/events/connexion",
+      "type": "text",
+      "bytes": 2341,
+      "sha256": "89a071b387876feb637a8cd4ed106e466ce6e07f48b4e30ee50117507649fa23",
+      "text": "Connexion 2025 - IOTA Home Events Projects Team Timeline Alumni About Us Jan 10, 2026 Connexion IOTA's flagship hackathon designed exclusively for freshmen to dive into the exciting world of IoT. This event provides a platform for budding technologists to connect, collaborate, and create innovative IoT solutions. Status Completed Download Official Brochure Finals Date 10th January, 2026 Team Size 3 to 5 members per team. Prize Pool Total ₹10,000 Venue Jadavpur University Event Timeline 10th January , 2026 Grand Finals: Offline Presentation & Prototype Demo & Result Announcement 13th December , 2025 Round 1 Results: Announcement of Shortlisted Teams 5th December , 2025 Round 1: Preliminary Presentation & Ideas Submission The Battlefield (Problem Statements) Choose your mission from our 10 Marvel-inspired IoT challenges: Smart Campus Management Energy optimization and real-time infrastructure response, inspired by Stark Tower. Ambulance Green Corridor IoT systems to shift traffic lights and clear paths instantly for ambulances. Remote Patient Monitoring Real-time emergency detection and monitoring for hospital systems. Crowd Safety & Stampede Risk Monitor crowd density and predict surges before they escalate into crises. Wildlife Conservation Anti-poaching network using drones and camera processing for forest monitoring. Child Nutrition Monitoring Tracking school meal details, BMI, and flag irregular growth patterns. Disaster Response Digital command center mapping affected zones via drones and satellites. Women Safety System SOS triggers sharing live location and context-aware automatic alerts. Ferry Service Safety Ensuring waterway safety and collision prevention during storm conditions. Smart Irrigation IoT monitoring of soil moisture and environmental conditions for optimized water use. Event Evaluation Clarity & Innovation Well-defined problems with original, creative, and unique logic. Feasibility & Scalability Practical implementation and potential for expansion to larger scales. Event Gallery Winners Circle 1st Place Syntax Error 404 2nd Place Tech Enovators 3rd Place Byte Busters 2.0 Round 1 Results Event Organizers Arghya Pratim Biswas +91 89002 96753 Subhojit Khatua +91 89107 30680 Kousik Kar +91 96478 00593 Back to Events IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/drone-workshop",
+      "pageUrl": "http://localhost:4173/events/drone-workshop",
+      "oldPath": "/events/drone-workshop",
+      "type": "text",
+      "bytes": 1129,
+      "sha256": "568e9bbd15fddc182faec04ee799aa54f52a642236377726032200dcc34eb9e8",
+      "text": "Drone Development Workshop - IOTA Home Events Projects Team Timeline Alumni About Us Workshop archive Hands-on Drone Development Workshop and Exhibition The Code to Flight workshop has concluded. Explore the curriculum and highlights from this hands-on program in drone software, avionics, flight control, and hardware design. Status Completed Download Event Report Registration Closed Certificate IOTA Signed Certificate Provided Technical Curriculum Drone Software & Communication Detailed introduction to MAVLink, drone operation modes, and secure communication protocols. Autonomous Control Exclusive hands-on sessions utilizing an in-house developed drone control API for waypoint navigation. Avionics & Signal Processing Understanding flight control loops and implementing noise filters for sensor fusion (IMU, Barometer, GPS). Hardware Design Hardware selection, power distribution design. Live Demonstration A live systems test using a custom-built competition-grade drone to demonstrate flight performance and stability. Workshop Gallery Back to Events IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/innovatia",
+      "pageUrl": "http://localhost:4173/events/innovatia",
+      "oldPath": "/events/innovatia",
+      "type": "text",
+      "bytes": 1003,
+      "sha256": "d030c5d6f048f4775b291ee63819d3d02c26921627f89682b09b10efdb8f865f",
+      "text": "Innovatia 2025 - IOTA Home Events Projects Team Timeline Alumni About Us Past Event Innovatia 2025 Hands-on with minds-on! IoTA_JU presents an immersive automation session where participants bring their own smart devices to life using Curiosity Hardware Kits. Status Completed Download Workshop Report Date 3rd July 2025 Time 10:30 AM – 5:00 PM Venue Room T37, Prayukti Bhavan, JU What happened at Innovatia? Hands-On Automation Participants built, tested, and fine-tuned their own IoT prototypes from scratch. Expert Lecture Detailed insights into tomorrow's IoT market and industry trends. Cloud Power-Up Scaling creations using modern cloud tools and remote data management. Live Q&A Direct interaction with mentors to solve complex technical challenges on the spot. Event Gallery Event Contacts Saptarshi Garai +91 89727 44365 Anish Chanda +91 62908 75571 Anurag Kar +91 74395 98560 Devanjan Biswas +91 89273 08378 Back to Events IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/iota-bidwars",
+      "pageUrl": "http://localhost:4173/events/iota-bidwars",
+      "oldPath": "/events/iota-bidwars",
+      "type": "text",
+      "bytes": 776,
+      "sha256": "037111e06cfa3903f39ada74100e11923cf8e3703de4ccef7b543c95b3c9d8ee",
+      "text": "IoT Bidwars 2026 - IOTA Home Events Projects Team Timeline Alumni About Us Event archive · Srijan 2026 IoT Bidwars Unite strategy and smart circuitry. An intense online quiz followed by a high-stakes digital auction to secure components for live IoT Blitz Circuit making. Status Completed Download Event Report Team Size 2 to 3 members per team. Budget Rule Rely on a strict virtual wallet for the auction. Venue Jadavpur University The Phases 01 Online Quiz Qualify via an intense IoT knowledge and circuit theory quiz. 02 Digital Auction Bid against rival teams to secure crucial IoT components. 03 Blitz Build Build a live IoT circuit using only the components your team won. Event Gallery Back to Events IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/lord-of-the-ring",
+      "pageUrl": "http://localhost:4173/events/lord-of-the-ring",
+      "oldPath": "/events/lord-of-the-ring",
+      "type": "text",
+      "bytes": 798,
+      "sha256": "0af87f25fcbbd9e2b26bd0c0e0c5b5114657dbe9c8c8fd0f26527ed2b566a0d3",
+      "text": "Lord of the Ring 2026 - IOTA Home Events Projects Team Timeline Alumni About Us Event archive · Srijan 2026 Lord of the Ring The pinnacle of robotic competition where engineering brilliance meets tactical mastery in the exhilarating Robo Sumo arena. Status Completed Download Event Report Team Size 3 to 5 members per team. Deadline April 10, 2026 Categories Wired and Wireless The Challenge Match Duration Each match consists of 3 rounds lasting 60 seconds each. Victory Conditions First to win 2 rounds takes the match. Push the opponent out of bounds or immobilize them entirely. Tactical Adaptation The format strictly rewards both physical durability and tactical adaptation in real-time combat. Event Gallery Back to Events IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/lord-of-the-rings",
+      "pageUrl": "http://localhost:4173/events/lord-of-the-rings",
+      "oldPath": "/events/lord-of-the-rings",
+      "type": "text",
+      "bytes": 82,
+      "sha256": "5a0226c89bab77a907797bba9439ce7dcf492889027caf234c06ffb95982cb7d",
+      "text": "Lord of the Ring 2026 - IOTA Redirecting to the Lord of the Ring event archive …"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/events/lord-of-the-rings-2025",
+      "pageUrl": "http://localhost:4173/events/lord-of-the-rings-2025",
+      "oldPath": "/events/lord-of-the-rings-2025",
+      "type": "text",
+      "bytes": 750,
+      "sha256": "b2dff2bfddd240bbabb49dabc74930d3f028084280f4a475ff42b7aa55f4958a",
+      "text": "Lord of the Ring 2025 - IOTA Home Events Projects Team Timeline Alumni About Us Srijan 2025 Lord of the Ring The pinnacle of robotic competition where engineering brilliance meets tactical mastery in the exhilarating Robo Sumo arena. Team Size 3 to 5 members per team. Event Day April 19 and 20, 2026 Categories Wired and Wireless The Challenge Match Duration Each match consists of 3 rounds lasting 60 seconds each. Victory Conditions First to win 2 rounds takes the match. Push the opponent out of bounds or immobilize them entirely. Tactical Adaptation The format strictly rewards both physical durability and tactical adaptation in real-time combat. Back to Events Event Gallery IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/home",
+      "pageUrl": "http://localhost:4173/home",
+      "oldPath": "/home",
+      "type": "text",
+      "bytes": 1263,
+      "sha256": "4380571bf10f7d6f2901000b938e1a34d4def51f10cea7513dde0d22a79e7347",
+      "text": "IOTA - IoT Applications Club Home Events Projects Team Timeline Alumni About Us IOTA Jadavpur University Building with sensors, software, and the people who make both work together. Explore IOTA RECENT EVENTS EVENTS, SEMINARS AND HACKATHONS From adrenaline-pumping hackathons to idea-fueled seminars, we bring the IoT revolution to life — all year long. Be where innovation meets action. EXPLORE PROJECTS Ongoing and Past IoT Projects Discover our top projects involving smart automation, connected devices, environmental monitoring, and AI-powered systems. Explore Projects OUR TEAM Meet Our Dedicated Members A collaborative group of innovators, engineers, developers and designers leading IOTA towards excellence. Know the Team ABOUT US Who We Are IOTA is the official IoT Applications Club at Jadavpur University. We explore Internet of Things through research, hands-on projects, and community engagement. Read More Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Jadavpur University, Kolkata, West Bengal 700032 Get in Touch iotajuofficial@gmail.com Send Message &copy; 2025 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/autonomous-mobility",
+      "pageUrl": "http://localhost:4173/project/autonomous-mobility",
+      "oldPath": "/project/autonomous-mobility",
+      "type": "text",
+      "bytes": 1949,
+      "sha256": "76b983c3b7578871c6f98bd418f2e0a3f9b439786e7dfac396eb84b6b2605cfa",
+      "text": "Autonomous Ground Vehicles - IOTA JU Home Events Projects Team Timeline Alumni About Us Autonomous Ground Vehicles A flagship multidisciplinary research track exploring advanced autonomous navigation across customized robotic platforms. Official Project Demonstration: Multi-Vehicle Coordination & Testing Phase I: 4-Wheeler Automation The 4-Wheeler track focuses on large-scale urban mobility. By integrating high-precision LIDAR and Computer Vision, the vehicle builds real-time 3D maps of its surroundings and plans optimal paths forward. Advanced obstacle detection and avoidance system Precise navigation using LIDAR and Computer Vision Real-time traffic analysis and route optimization Emergency braking and collision prevention Intelligent speed adaptation systems Phase II: Self-Balancing Dynamics Exploring the complex physics of single-track vehicles. This project utilizes high-speed IMU sensor fusion and PID control loops to maintain vertical stability while navigating autonomously. Self-balancing technology using IMU stabilization Dynamic steering for center-of-gravity compensation Smart route planning and precision navigation Compact, lightweight, and battery-efficient design Smartphone application for telemetry and control Phase III: AI Search & Rescue Our most advanced robotics project, designed for disaster response. The ML-Integrated Rescue Car utilizes Edge AI for real-time human detection and thermal tracking in hazardous environments. TensorFlow Lite for Real-time Victim Detection ROS-based Environmental SLAM & Mapping Hazardous Terrain Traversal Capabilities LoRa-Frequency Telemetry for remote operations Multispectral human and heat-signature tracking Unified AGV Tech Stack NVIDIA Jetson Edge AI Processing ROS 2 Foxy Robot Middleware LiDAR / IMU Sensor Fusion OpenCV / TFLite Computer Vision Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/deskbot",
+      "pageUrl": "http://localhost:4173/project/deskbot",
+      "oldPath": "/project/deskbot",
+      "type": "text",
+      "bytes": 2850,
+      "sha256": "a86223ec3693cc1a6422ce1517684f458958de4effbd2e82bf3b5f34f7789976",
+      "text": "Deskbot – ESP32 AI Desktop Assistant | IOTA JU Home Events Projects Team Timeline Alumni About Us IEEE SSCS Project Deskbot An ESP32-powered, voice-controlled AI desktop study assistant streaming audio to Gemini AI for hands-free, screen-free learning and accessibility. Project Summary Deskbot is an ESP32-powered, voice-controlled AI desktop study assistant designed to answer academic questions hands-free. It captures spoken questions, streams audio to a Python backend powered by Gemini AI, and speaks back the answers in real time. Alongside an integrated focus timer and clock to minimize phone distractions, it provides an accessible, screen-free learning device particularly helpful for visually impaired users and individuals with limited mobility. Project Overview System Architecture & Workflow The end-to-end communication pipeline links micro-hardware to cloud AI: 1 Audio Input: The onboard microphone on the ESP32 captures the user's speech and streams 16-bit PCM audio packets over Wi-Fi using the UDP protocol. 2 Backend Processing: A dedicated Python application receives the UDP stream, converts speech to text (STT), and forwards the prompt to the Gemini API. 3 Synthesis & Output: Gemini’s generated answer is converted back into speech (TTS) and streamed over UDP to the ESP32, which plays it out via an amplifier and speaker. Engineering Challenges & FreeRTOS Implementation 1 Audio Bottleneck: Handling continuous audio streaming without packet loss or blocking network traffic was a primary technical hurdle. 2 Multi-Task Architecture: The team utilized FreeRTOS to implement distinct parallel tasks for microphone recording, Wi-Fi packet reception, and speaker playback. 3 Buffer Management: Incoming audio packets are temporarily queued in a memory buffer to absorb network jitter and packet arrival variations, ensuring glitch-free playback. Implementation Result 1 Hands-Free Academic Q&A: Successfully processed spoken questions and delivered accurate, spoken answers in clear natural language without requiring a display screen, keyboard, or mouse. 2 Real-Time Voice Pipeline: Achieved end-to-end processing—capturing spoken audio on the ESP32, streaming it via UDP over local Wi-Fi, transcribing via STT, generating an answer via Gemini API, synthesizing the speech, and playing it back through the desktop speaker. 3 Tabletop Productivity Tools: Ran an integrated tabletop digital clock alongside a dedicated study/focus timer, keeping time visible to prevent study distractions and eliminate phone pickups. 4 Accessibility Interface: Provided a viable assistive device for visually impaired users and people with limited motor skills by replacing complex website navigation and typing with direct voice interaction. Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/drone",
+      "pageUrl": "http://localhost:4173/project/drone",
+      "oldPath": "/project/drone",
+      "type": "text",
+      "bytes": 1153,
+      "sha256": "16338e2071c64df30485a4a381ee2242f5edca0c6971811a7739cfede5ce3f29",
+      "text": "Drone Automation | IOTA JU Home Events Projects Team Timeline Alumni About Us Drone Automation Advanced autonomous drone technology for various applications ranging from aerial photography to search and rescue operations. Project Overview Our Drone Automation project focuses on developing intelligent, autonomous drones capable of performing complex tasks with minimal human intervention. We implement cutting-edge computer vision to allow the drone to navigate through the air and avoid obstacles. Key Features & Applications The system is strictly built to ensure stability, obstacle avoidance, and rapid response in versatile environments. Custom Flight Controller (ArduPilot/PX4) with GPS-based waypoint navigation Real-time 1080p FPV video downlink with OSD telemetry data Onboard obstacle detection using ultrasonic and IR sensor arrays Precision Stabilized Gimbal for vibration-free aerial monitoring Modular carbon-fiber frame design for rapid prototyping and repair Back to Projects Technical Specs 25m Flight Time 3km Max Range 1080p HD FPV Link 50kph Max speed &copy; 2026 IoT Applications Club. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/gamepad",
+      "pageUrl": "http://localhost:4173/project/gamepad",
+      "oldPath": "/project/gamepad",
+      "type": "text",
+      "bytes": 2401,
+      "sha256": "23d1d48025f69b8420fe9c818bd93d26d203b5483b388d53f0624cb77cd1a0af",
+      "text": "Gamepad – 8-Bit Handheld Retro Console | IOTA JU Home Events Projects Team Timeline Alumni About Us IEEE SSCS Project Gamepad A custom-engineered, standalone 8-bit handheld console running an extensible object-oriented C++ game engine with 7 playable titles including 3D raycasted DOOM. Project Summary A custom-engineered, standalone 8-bit handheld console powered by an ATmega328P microcontroller running on a custom 2-layer PCB designed in KiCad. The system utilizes an extensible object-oriented C++ game engine to execute seven classic titles, including a raycasted 3D DOOM demake on a 128 x 64 monochrome OLED screen. By leveraging non-volatile flash memory (PROGMEM) and fixed-point arithmetic, the console achieves real-time physics and rendering under strict 2 KB SRAM limitations within an ergonomic 3D-printed enclosure. Project Overview The project transitions classic breadboard retro-gaming concepts into a robust, integrated consumer-grade embedded system. The hardware core features an ATmega328P MCU driving a high-contrast I2C OLED display alongside a tactile pushbutton control interface routed onto a custom, compact PCB. On the software layer, rather than hardcoding static game loops, a polymorphic engine structure was built around a Finite State Machine (FSM). This modular architecture decouples display drivers, input debouncing, and game state loops, allowing scalable expansion across 7 titles: Space Trash, Breakout, T-Rex Run, DOOM, Snake, Space Wars, and Tetris. The firmware is optimized for extreme memory constraints through bitwise operations, custom collision algorithms, and static memory allocation to avoid heap fragmentation. 3D DOOM Demake Space Trash Breakout T-Rex Run Snake Space Wars Tetris Hardware Stack Processor: ATmega328P (16 MHz, 5V logic) Display: 0.96-inch monochrome SSD1306 OLED (128 x 64, I2C interface) PCB Design: Custom 2-layer PCB routed in KiCad (optimized trace routing, active pull-ups, power decoupling) Inputs: Tactile digital momentary pushbuttons Software & Toolchain Stack Language/Environment: C++, Arduino IDE Core Architecture: Object-Oriented Polymorphic Engine, Finite State Machine (FSM) Memory Optimization: Flash asset allocation via PROGMEM, Fixed-Point Math, Bit-masking CAD / EDA Tools: KiCad (Schematic capture & PCB layout) Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/ishara",
+      "pageUrl": "http://localhost:4173/project/ishara",
+      "oldPath": "/project/ishara",
+      "type": "text",
+      "bytes": 1621,
+      "sha256": "ba2290828eaf5d11d97fdebe89e9cec73beb80b63c8383244a56426c81794ce1",
+      "text": "Ishara: Touchless HCI | IOTA JU Home Events Projects Team Timeline Alumni About Us Ishara: Touchless HCI Real-Time Human–Computer Interface for Media Control using Hand Gestures on Edge Devices – Bharat AI-SOC Student Challenge. Official Project Demonstration: Bharat AI-SOC Student Challenge Finalist Entry Recognition This project was selected as a finalist in the Bharat AI-SOC Student Challenge, demonstrating the power of Edge AI in creating intuitive, touchless user experiences. Official Selection List: Bharat AI-SOC Student Challenge Project Overview Ishara is a high-performance touchless interface designed for the Bharat AI-SOC Student Challenge . It leverages advanced skeletal tracking to control media players with zero physical contact, optimized specifically for the Raspberry Pi 5. Technical Innovations MediaPipe BlazePalm Integration: Implements 21-point skeletal tracking, replacing noise-sensitive contour methods with robust 3D topology. HFSM Optimization: Engineered a Hierarchical Finite State Machine to replace heavy ML classifiers, reducing CPU load to an ultra-lean 16.9%. Scale-Invariant Algorithm: Uses centroid normalization, allowing seamless operation at distances up to 2.4 meters. Sliding Window Median Filter: Eliminates tracking jitter, maintaining a deterministic latency of 150ms. Asynchronous Execution: Utilizes Pynput for real-time HID command emulation to control VLC Media Player. Back to Projects Performance 96% Accuracy Rate 16.9% CPU Load 150ms System Latency Project Files Research Paper User Manual IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/mediguard",
+      "pageUrl": "http://localhost:4173/project/mediguard",
+      "oldPath": "/project/mediguard",
+      "type": "text",
+      "bytes": 2629,
+      "sha256": "cb7b44ac89ea17421d0c649379a6d2ef486da90fb77443d08f4b2632dd97bb4e",
+      "text": "MediGuard – AI & IoT Based Smart Medicine Verification System | IOTA JU Home Events Projects Team Timeline Alumni About Us IEEE SSCS 2026 Project MediGuard – AI & IoT Based Smart Medicine Verification System Reducing medication errors by verifying both the patient and the medicine before consumption using biometric and deep vision edge intelligence. Project Summary MediGuard is an intelligent healthcare system designed to reduce medication errors by verifying both the patient and the medicine before consumption. It combines fingerprint authentication with AI-based medicine image verification using an ESP32-S3 camera system. A dedicated Android application manages patient details, medicine enrollment, and medication schedules, while Firebase and a Flask backend provide cloud connectivity and data processing. Project Overview MediGuard consists of an ESP32-S3 based embedded device integrated with an OV3660 camera, AS608 fingerprint sensor, OLED display, and speaker. Patients are authenticated using their fingerprint, after which the system retrieves their scheduled medication. The medicine is captured through the device camera and compared with previously enrolled reference images using a computer-vision pipeline based on image preprocessing, MobileNetV2 embeddings, and cosine similarity. The verification result is then communicated through the OLED and audio feedback. The Android application provides a centralized interface for patient registration, fingerprint enrollment, medicine enrollment, and schedule management. Hardware Stack ESP32-S3 N16R8 (Dual-Core AIoT SoC) OV3660 Camera Module AS608 Optical Fingerprint Sensor 1.3-inch OLED Display Speaker / Audio Module Power Bank / Portable Power Supply Software Stack Arduino C++ / ESP32 Firmware Android Application (Java) Flask / Python Backend Firebase Firestore EasyOCR MobileNetV2 Cosine Similarity REST APIs Wi-Fi Communication Implementation Result A functional working prototype of MediGuard has been developed. The system successfully integrates fingerprint-based patient authentication, medicine reference-image enrollment, camera-based medicine verification, Firebase data management, and Android-based patient and schedule management. The ESP32-S3 communicates with the Flask backend over Wi-Fi, while verification results are displayed on the OLED and provided through audio feedback. The complete workflow—from patient authentication and medicine identification to verification and result generation—has been implemented and demonstrated. Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/netralink",
+      "pageUrl": "http://localhost:4173/project/netralink",
+      "oldPath": "/project/netralink",
+      "type": "text",
+      "bytes": 1412,
+      "sha256": "ca2a9172d0d2a5bfa274ba8d902340cd3a14d620b2bed84ba9bac0ab959b13f2",
+      "text": "Netra-Link | IOTA JU Home Events Projects Team Timeline Alumni About Us 3rd Prize Winner - IEEE SSCS Netra-Link IoT-Enabled Assistive Goggle for individuals with severe motor disabilities. Your browser does not support the video tag. Project Overview Netra-Link is a smart wearable interface designed for individuals with severe motor disabilities (ALS, Paralysis). It translates voluntary eye-blink patterns into digital commands for Home Automation and Emergency Response. Unlike standard eye-trackers, this system runs on low-cost hardware (ESP32) and includes a novel \"Unconsciousness Detection\" algorithm that triggers an alert if the user's eye remains closed for an abnormal duration. Key Features Smart Blink Detection: Ignores natural blinks, toggles appliances on command blinks, and sends SOS alerts on double blinks. Unconsciousness monitor: Automatically alerts caregivers if the user is unresponsive. IoT Connectivity: Sends push notifications via REST API. Menu System: Visualizes selections (Light/Fan/Speaker) via integration with a 16x2 LCD. // Example Firmware Configuration const char* ssid = \"YOUR_WIFI_SSID\"; const char* token = \"YOUR_PUSHBULLET_TOKEN\"; Back to Projects Hardware Stack Component Specification Controller ESP32 Dev Module Sensor IR Obstacle Sensor Actuators 3CH Relay, Buzzer Power 3.7V Li-Ion &copy; 2026 IoT Applications Club. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/road-anomaly",
+      "pageUrl": "http://localhost:4173/project/road-anomaly",
+      "oldPath": "/project/road-anomaly",
+      "type": "text",
+      "bytes": 1567,
+      "sha256": "c790e270aa34c18f56479fbbcbdd4dc4a3853f7ae8d25783bb4773f2dcd5c85b",
+      "text": "Road Anomaly Detection - IOTA JU Home Events Projects Team Timeline Alumni About Us Real-Time Road Anomaly Detection Raspberry Pi Edge AI system for automated road maintenance and safety monitoring through dashcam footage. Your browser does not support the video tag. Executive Summary This project develops a high-performance Edge AI application designed to detect and log road anomalies such as potholes, cracks, and obstacles in real-time. Optimized for Raspberry Pi hardware, it serves as a robust tool for automated infrastructure auditing and vehicle safety. Methodology The system utilizes the latest YOLOv11n architecture, trained on the RDD2022 dataset. To ensure deployment at the edge, we implemented several optimization techniques: PT -> TFLite Conversion: Switched from heavy PyTorch weights to mobile-optimized TFLite. INT8 Quantization: Reduced model size from 10MB to 2.5MB with minimal accuracy loss. Threaded I/O Pipeline: Decoupled frame capture from inference to maintain consistent frame rates. XNNPACK Optimized Kernels: Maximized ARM CPU utilization on Raspberry Pi 4/5. Performance Results Class Precision Recall mAP50 Alligator Crack 0.592 0.512 0.543 Longitudinal Crack 0.658 0.602 0.660 Other Corruption 0.697 0.745 0.769 Pothole 0.634 0.404 0.476 Back to Projects Edge Metrics 10+ Target FPS (Pi 5) 2.5MB Quantized Model Size 60.4% mAP (Mean Average Precision) Core Stack Ultralytics YOLOv11 TFLite Runtime OpenCV Python MuSGD Optimizer &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/smart-ebook-reader",
+      "pageUrl": "http://localhost:4173/project/smart-ebook-reader",
+      "oldPath": "/project/smart-ebook-reader",
+      "type": "text",
+      "bytes": 3159,
+      "sha256": "1091926049a1aa96e6a3833668eb015bce1d2c26f1bb3d3e9bbc2fbebe354f72",
+      "text": "SMART AI Powered Study Guide and Ebook Reader | IOTA JU Home Events Projects Team Timeline Alumni About Us Arduino SSCS Challenge 2026 SMART AI Powered Study Guide and Ebook Reader An ESP32-based multi-capability study companion combining offline eBook reading, FTP server, Bluetooth A2DP audio streaming, macro remote keypad, and Android AI assistant. Your browser does not support the video tag. Summary An ESP32-based EBook reader engineered to provide a distraction-free, screen-efficient learning experience with comprehensive peripheral and cloud connectivity: eBook Reading & Storage: Read and store extensive eBook collections with up to 32GB SD card storage support. FTP File Server: Functions as an active FTP server on the home network for wireless file management. Bluetooth Audio Streaming: Store and stream ambient background study audio directly to external Bluetooth speakers. Bluetooth Macro Keypad: Operates as a remote Bluetooth keypad to control smartphones or laptops. AI Companion App: Dedicated Android companion app that parses study notes, generates AI flashcards, and syncs them automatically to the device. SSCS Standards: Designed following the official Arduino SSCS Challenge 2026 guidelines. Overview & Firmware Architecture Core Firmware Libraries Adafruit_SSD1306 & Adafruit_GFX (or U8g2): Drives the OLED display, performing low-level pixel manipulation, font rendering, line wrapping, and dynamic reader UI management. SD.h / FS.h: Manages the FAT file system on the SD module to traverse directories, stream large .txt files into memory buffers, and store incoming notes. ESP32-A2DP: Implements the Advanced Audio Distribution Profile (A2DP) source mode to stream I2S audio wirelessly to paired speakers. BluetoothSerial.h: Manages Classic Bluetooth Serial Port Profile (SPP) connections for receiving raw note payloads over the air. Keypad.h: Handles button matrix polling, hardware debouncing, and translation into navigational and media macro triggers. Dual Data Pipeline Management The ESP32 acts as a central hub managing concurrent display and wireless communication pipelines: Display Pipeline: When reading, text chunks are fetched from the SD card into RAM, formatted by the graphics engine, and pushed to the SSD1306 OLED over I2C/SPI. Button polling triggers instantaneous text buffer paging. Wireless Transfer & Audio: Audio macros invoke ESP32-A2DP audio encoding, while the BluetoothSerial SPP stream receives mobile text pushes and directly writes them to the SD card via the FS library—acting as a wireless flash drive. Companion Android Application Built completely in Android Studio with Kotlin and native toolchains, the mobile companion application inputs notes and documents in PDF format. It can either direct-port them to the IoT device over Bluetooth or leverage AI models to generate interactive study flashcards. The app also supports music file transmission and local summary archiving. Source Code & Repositories Firmware Repository ESP32 Mini Ebook Player Android App Repository Companion Mobile App Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/spinsafe",
+      "pageUrl": "http://localhost:4173/project/spinsafe",
+      "oldPath": "/project/spinsafe",
+      "type": "text",
+      "bytes": 1688,
+      "sha256": "3fda38a651609519dce18ef777df4b617883b4148a4a1fb8eb942ae289ff9337",
+      "text": "SpinSafe: Predictive Maintenance | IOTA JU Home Events Projects Team Timeline Alumni About Us SpinSafe: Edge-Native Predictive Maintenance Transforming legacy industrial machinery into self-diagnosing smart hardware through high-speed, closed-loop ML architecture. Industrial Revolution at the Edge SpinSafe is an autonomous predictive maintenance system designed to modernize legacy industrial motors. By shifting intelligence from the cloud to the hardware itself, it enables sub-second reaction times to mechanical anomalies. The system utilizes a retrofittable hardware node that captures multi-axis vibration, temperature, and electrical load data, processing it through a local AI gateway that retrains its models every 10 seconds to adapt to each specific motor's \"healthy\" baseline. Core Innovations Dynamic Baseline Learning: Retrains a Decision Tree classifier every 10 seconds to detect unique precursors to failure. Hardware-Level Interrupts: Bypasses network latency to cut power in milliseconds during critical failures. Multi-Sensor Fusion: Integrates MPU6050 vibration analysis with thermal and current telemetry. Zero-Cloud Dependency: Operates fully at the edge, ensuring security and maximum uptime for industrial networks. Legacy Integration: Designed as a retrofittable node for rapid deployment across existing motor fleets. Back to Projects Edge Performance 1ms Reaction Latency 10s Model Retraining Cycles 99.8% Uptime Prediction Accuracy Hardware Node ESP32 Edge Processing Unit MPU6050 6-Axis Accelerometer Non-Invasive Current Sensors Precision Thermal Probes &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/temperlink",
+      "pageUrl": "http://localhost:4173/project/temperlink",
+      "oldPath": "/project/temperlink",
+      "type": "text",
+      "bytes": 1663,
+      "sha256": "88ed5c1bf9fb6bbceb520ac4e9752dfc0139f0f6f84750a274247153607a5643",
+      "text": "TemperLink – Industrial LoRaWAN Temperature Monitoring System | IOTA JU Home Events Projects Team Timeline Alumni About Us Global top 50-IEEE HART TemperLink Industrial LoRaWAN temperature monitoring system designed for long-range, ultra-low power deployment across distributed sensing environments. Project Summary TemperLink is an industrial LoRaWAN temperature monitoring system designed for long-range, low-power deployment in mission-critical environments such as cold-chain logistics, pharmaceutical storage, industrial processing plants, and distributed telemetry networks. Project Overview Made with Low-Power STM32 processors mounted on top of a custom-designed PCB board alongside a hand-fabricated PCB planar antenna, the system possesses reliable wireless communication capabilities up to a 1km range, combined with smart edge processing and predictive intelligence. Your browser does not support embedded video. Hardware & RF Architecture Controller: Low-Power STM32 ARM Cortex Processor RF Protocol: LoRaWAN Long-Range Transceiver Antenna: Hand-Fabricated Planar PCB Antenna Board Design: Custom Multi-Layer Routed PCB Coverage: Up to 1km Long-Range Transmission Intelligence: Smart Processing & Predictive Analytics Industrial Use Cases Cold-Chain Telemetry: Real-time vaccine and perishable goods temperature audits. Industrial Plants: Early anomaly detection on machine thermal profiles. Distributed Sensing: Remote environmental tracking with minimal energy footprint. Storage Facilities: Automated threshold alerts preventing inventory degradation. Back to Projects &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/project/voxvision",
+      "pageUrl": "http://localhost:4173/project/voxvision",
+      "oldPath": "/project/voxvision",
+      "type": "text",
+      "bytes": 1622,
+      "sha256": "b2194f18a8879450c8072ac6cdc49ef33982944a25605c98c93b86e6f30010c1",
+      "text": "VoxVision - Voice-to-Secure-PDF Exam System | IOTA JU Home Events Projects Team Timeline Alumni About Us VoxVision: Voice-to-Secure-PDF Empowering visually impaired and specially-abled students with an accessible, offline, and multilingual examination system. Your browser does not support the video tag. Project Mission VoxVision is an inclusive, voice-powered examination system designed to replace traditional scribes for visually impaired students. It provides a screen-less, tactile hardware interface that allows students to navigate, listen, and speak their answers naturally and securely. Key Features Hybrid Online/Offline System: Operates fully offline during exams for maximum reliability. Tactile Hardware Interface: Screen-less device with physical buttons optimized for blind users. 15+ Indian Languages: Comprehensive support for regional languages using AI STT/TTS models. AES-256 Encryption: Generates secure, encrypted PDFs and verifiable audit logs. Automated Workflows: Seamlessly converts standard Excel question sheets into voice-based exams. Technical Integrity By leveraging Edge AI on dedicated hardware, VoxVision ensures that all sensitive audio and text data remains encrypted and stored locally, synchronized with a secure web dashboard only under authorized administrator supervision. Back to Projects Social Impact 15+ Regional Languages 100% Offline Reliability AES 256-bit Encryption Resources Live Web Dashboard Project Report (PDF) AI Speech-to-Text Engine Multi-Robot Coordination Hub &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved. iotajuofficial@gmail.com"
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/projects",
+      "pageUrl": "http://localhost:4173/projects",
+      "oldPath": "/projects",
+      "type": "text",
+      "bytes": 3509,
+      "sha256": "8ee0f1741f4a0ab72b77bf7c5fdf733ddb5d08f9b2c076657410a0fac4a408cd",
+      "text": "Projects - IOTA Home Events Projects Team Timeline Alumni About Us Innovation in Motion OUR PROJECTS We are pioneering the boundary between the digital and physical worlds through innovative IoT, Robotics, and Hardware solutions designed for the future. Global top 50 TemperLink An industrial LoRaWAN temperature monitoring system for long-range, ultra-low power deployment across cold-chain, storage, and industrial plants with STM32 processors and custom planar PCB antennas. Learn More Global 3rd Netra-Link: IoT Goggle 3rd Prize Winner at IEEE SSCS Competition. An IoT-enabled assistive goggle translating eye-blinks into commands for home automation and emergency response, featuring unconsciousness detection. Learn More Bharat AI-SOC Finalist Ishara: Touchless HCI A high-performance touchless media controller for Raspberry Pi 5. Using MediaPipe and HFSM, it achieves 96%+ accuracy with an ultra-lean 16.9% CPU load for robust gesture interaction. Open Technical Report Edge-Native AI SpinSafe An autonomous predictive maintenance system for industrial motors. Using ESP32 nodes and local Decision Tree classifiers, it achieves 1ms reaction latency to prevent mechanical failure through hardware-level interrupts. Read Industrial Report Edge AI Optimized Road Anomaly Detection Real-time edge AI application for Raspberry Pi that detects and logs potholes and road cracks from dashcam footage with 60.4% mAP for automated infrastructure health checks. View Edge Report Ongoing Drone Automation An innovative autonomous vehicle project focusing on navigation, obstacle detection, and smart control systems. It is a drone that can navigate through the air and avoid obstacles with computer vision. Learn More IEEE SSCS 2026 MediGuard An intelligent AI & IoT healthcare system designed to eliminate medication errors by verifying both patient biometric fingerprints and medicine computer-vision signatures with ESP32-S3 and MobileNetV2. Learn More IEEE SSCS 2026 Gamepad: 8-Bit Console A custom-engineered standalone retro console running on an ATmega328P MCU and custom KiCad PCB. Powered by an extensible polymorphic C++ game engine executing 7 titles including raycasted 3D DOOM. Learn More IEEE SSCS 2026 Deskbot AI Assistant An ESP32-powered, voice-controlled AI desktop study assistant. Streams audio over UDP to Gemini AI for hands-free real-time question answering with integrated FreeRTOS multi-tasking and accessibility tools. Learn More IEEE SSCS 2026 Smart AI Ebook Reader An ESP32-based multi-feature study companion featuring 32GB SD eBook reader, FTP network file server, Bluetooth A2DP audio streaming, macro remote keypad, and Android AI flashcard companion app. Learn More Inclusive AI VoxVision A voice-to-secure-PDF examination system for visually impaired students. Offline-first, multilingual, and AES-256 encrypted to empower independent learning. Learn More Featured Research Track Autonomous Ground Vehicles A comprehensive research track exploring the future of mobility. This project merges our work in 2-Wheeler self-balancing, 4-Wheeler autonomous pathfinding, and ML-Integrated Rescue systems into a unified robotic mobility framework. Explore the AGV Series Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Jadavpur University, Kolkata, West Bengal 700032 Get in Touch Send Message &copy; 2025 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "People page. Same-name entries stay separate until identity review. Old URL destination to be set for the redirect runtime.",
+      "owner": "Ritendu",
+      "reviewStatus": "proposed",
+      "id": "text:/team",
+      "pageUrl": "http://localhost:4173/team",
+      "oldPath": "/team",
+      "type": "text",
+      "bytes": 4741,
+      "sha256": "092d2541dc36493474f8978e0f93ab3ff71010f0a7a14f035fb9d0b82974cc41",
+      "text": "Team - IOTA Home Events Projects Team Timeline Alumni About Us IOTA is the official student-run IoT and Embedded Systems club of Jadavpur University . We are a community of passionate students exploring the world of Internet of Things, robotics, hardware prototyping, and innovation . From organizing workshops and hackathons to building real-world tech projects, we aim to bridge theory with hands-on experience. FACULTY ADVISORS Prof. P. Venkateswaran Electronics & Telecommunication Engineering Dr. Sheli Sinha Chaudhuri Electronics & Telecommunication Engineering Dr. Chandrima Mondal Electronics & Telecommunication Engineering Dr. Chinmoy Ghorai Electronics & Telecommunication Engineering BOARD MEMBERS Saptarshi Garai President Anish Chanda Vice President Anurag Kar Secretary Nayan Singha Joint Secretary Srijan Roy Joint Secretary Parthiv Paul Joint Secretary line a person doesn't have. Delete the last card block to get a 5 / 5 / 4 layout. --> SENIOR MEMBERS Arghya Pratim Biswas Electronics & Telecommunication Engineering Tuhin Roy Electronics & Telecommunication Engineering Subhojit Khatua Electronics & Telecommunication Engineering Pushpal Bhar Electronics & Telecommunication Engineering Soham Saha Electronics & Telecommunication Engineering Kousik Kar Electronics & Telecommunication Engineering Amogh Sarmadhikary Electronics & Telecommunication Engineering Aratrika Pahari Electronics & Telecommunication Engineering Soumojeet Pan Electronics & Telecommunication Engineering Soumyajit Bhowal Electronics & Telecommunication Engineering Rohit Sharma Electronics & Telecommunication Engineering Arnab Karmakar Electronics & Telecommunication Engineering Sahana Sharmin Department of Architecture Engineering Soumyadipta Bandyopadhyay Electronics & Telecommunication Engineering Satyajit Mandal Electronics & Telecommunication Engineering TECHNICAL DEVELOPMENT Shreyam Marodia Department of Electronics and Telecommunications Engineering Rudra Das Department of Electrical Engineering Ishani Paul Department of Electrical Engineering Shirsho Saha Department of Electronics and Telecommunications Engineering Soham Majhi Department of Instrumentation and Electronics Engineering Ritendu Sarkar Department of Computer Science and Engineering Apurba Mandal Department of Electronics and Telecommunications Engineering Raunak Panja Department of Electrical Engineering Pritish Mondal Department of Food Technology and Biochemical Engineering Rifha Yeasmin Department of Electrical Engineering Siddhivinayak Mandal Department of Electronics and Telecommunications Engineering Sagnik Sarkar Department of Electrical Engineering Sourasish Mitra Department of Information Technology Abhilash Nandi Department of Metallurgical and Material Engineering Harsith Nath Department of Electrical Engineering Swastik Saha Department of Power Engineering Ritarup Tripathy Department of Electrical Engineering Anwit Patra Department of Electronics and Telecommunications Engineering Anubhab Banerjee Department of Electrical Engineering CONTENT & DESIGN Shreyam Marodia Department of Electronics and Telecommunications Engineering Rifha Yeasmin Department of Electrical Engineering Apurba Mandal Department of Electronics and Telecommunications Engineering OPERATIONS & MANAGEMENT Apurba Mandal Department of Electronics and Telecommunications Engineering Shirsho Saha Department of Electronics and Telecommunications Engineering Rudra Das Department of Electrical Engineering Raunak Panja Department of Electrical Engineering Sagnik Sarkar Department of Electrical Engineering Deepchand Banik Department of Electronics and Telecommunications Engineering Anujoy Barman Department of Electronics and Telecommunications Engineering Sourasish Mitra Department of Information Technology OUTREACH & PR Apurba Mandal Department of Electronics and Telecommunications Engineering Ishani Paul Department of Electrical Engineering Rifha Yeasmin Department of Electrical Engineering Deepchand Banik Department of Electronics and Telecommunications Engineering Pritish Mondal Department of Food Technology and Biochemical Engineering Anujoy Barman Department of Electronics and Telecommunications Engineering Protiva Saha Department of Electronics and Telecommunications Engineering Sayari Sereen Department of Electronics and Telecommunications Engineering ANKUR KARMAKAR Department of Mechanical Engineering Bunty Halder Department of Mechanical Engineering Innovating the Future with IoT. Join us in building smart solutions for a better tomorrow. Quick Links Home Events Projects Team Timeline Alumni About Us Locate Us Get in Touch iotajuofficial@gmail.com Send Message &copy; 2026 IoT Applications Club, Jadavpur University. All rights reserved."
+    },
+    {
+      "decision": "migrate",
+      "reason": "Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
+      "id": "text:/timeline",
+      "pageUrl": "http://localhost:4173/timeline",
+      "oldPath": "/timeline",
+      "type": "text",
+      "bytes": 2743,
+      "sha256": "32bceada89afb4a5a609f21f8882b728d024218068414eb326e8bbdc4f09e436",
+      "text": "Timeline — IOTA Journey of IOTA Home Events Projects Team Timeline Alumni About Us 01 / 08 · The Genesis 01 · 08 Scroll to journey Foundation August 2023 The Genesis IOTA Club was officially conceptualized and founded at Jadavpur University Main Campus, creating a dedicated space for IoT and hardware innovation. Foundation Innovation 2023 Education October 2023 IoT Basics Workshop Launched our first hands-on workshop introducing students to ESP32, sensors, and cloud integration. Over 100 students participated in a high-energy session that sparked campus-wide interest in embedded systems. ESP32 Microcontrollers Workshop Celebration November 2023 Softlanding Celebration Bringing together the community to witness and discuss the technical brilliance of soft landing missions and exploring aerospace technology advancements. Aerospace Space Tech Community Seminar December 2023 Automotive Electronics Seminar Organized a comprehensive one-day seminar on Automotive Electronics and the potential application of AI in Automotive, in collaboration with IEEE COMSOC and IEEE CAS. IEEE COMSOC Automotive AI Technical Seminar Competition Srijan 2024 Lord of the Ring '24 The pinnacle of robotic competition at Srijan. Teams navigated Wired and Wireless categories in electrifying elimination rounds, testing the very limits of design and control in the Robo Sumo arena. Robotics Srijan Robo Sumo People August 2024 Orientation 2024 Our formal inaugural orientation session. We introduced a new wave of freshmen to the world of hardware development, onboarding fresh talent to our technical team. Recruitment Community Freshmen Competition Srijan 2025 Lord of the Ring '25 Engineering brilliance met tactical mastery once again. The stakes were higher and the robots stronger in our flagship Robo Sumo event, drawing elite hardware competitors from across the state. Robotics Srijan Robo Sumo Showcase July 2025 Innovatia 2025 The flagship event of IOTA, bringing together innovators and tech enthusiasts for a celebration of technology, creativity, and sustainable innovation. Teams showcased their smartest edge-native projects. Showcase Sustainability Innovation People August 2025 Orientation 2025 Welcoming the newest batch of hardware and IoT enthusiasts. A grand event to introduce the vision and upcoming projects for the year. Recruitment Community Freshmen Hackathon January 2026 Connexion '25 IOTA's flagship freshmen hackathon. We provided a dedicated platform for budding technologists to connect, collaborate, and solve real world problems — tackling challenges like smart campus management and remote patient monitoring. Hackathon Freshmen Problem Solving IOT Applications Club, Jadavpur University iotajuofficial@gmail.com"
     }
   ],
   "media": [
@@ -1277,6 +1637,7 @@
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/Github.png",
       "filename": "Github.png",
       "status": 200,
@@ -1291,13 +1652,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Github.png",
         "http://localhost:4173/frontend/projects/images/Github.png",
         "http://localhost:4173/frontend/team/images/Github.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/IOTA.png",
       "filename": "IOTA.png",
       "status": 200,
@@ -1312,13 +1673,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/IOTA.png",
         "http://localhost:4173/frontend/projects/images/IOTA.png",
         "http://localhost:4173/frontend/team/images/IOTA.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/Instagram%20(2).png",
       "filename": "Instagram (2).png",
       "status": 200,
@@ -1333,13 +1694,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/projects/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/team/images/Instagram%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/JULogo.png",
       "filename": "JULogo.png",
       "status": 200,
@@ -1354,13 +1715,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/JULogo.png",
         "http://localhost:4173/frontend/projects/images/JULogo.png",
         "http://localhost:4173/frontend/team/images/JULogo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/Linkedin%20(2).png",
       "filename": "Linkedin (2).png",
       "status": 200,
@@ -1375,13 +1736,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/projects/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/team/images/Linkedin%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/aboutus.jpg",
       "filename": "aboutus.jpg",
       "status": 200,
@@ -1395,13 +1756,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/aboutus.jpg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/facebook%20(2).png",
       "filename": "facebook (2).png",
       "status": 200,
@@ -1416,13 +1777,13 @@
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/facebook%20(2).png",
         "http://localhost:4173/frontend/projects/images/facebook%20(2).png",
         "http://localhost:4173/frontend/team/images/facebook%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/gallery%20pic%201.jpg",
       "filename": "gallery pic 1.jpg",
       "status": 200,
@@ -1433,13 +1794,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/logo.png",
       "filename": "logo.png",
       "status": 200,
@@ -1452,13 +1813,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/team/images/logo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ABOUT%20US/images/team.jpg",
       "filename": "team.jpg",
       "status": 200,
@@ -1471,13 +1832,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/team.jpg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/Arya%20Pandit%20Planning.jpg",
       "filename": "Arya Pandit Planning.jpg",
       "status": 200,
@@ -1488,13 +1849,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/Saptarshi%20Koley%20design%20team%20.jpg",
       "filename": "Saptarshi Koley design team .jpg",
       "status": 200,
@@ -1505,13 +1866,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/Shirshendu_PR.jpg",
       "filename": "Shirshendu_PR.jpg",
       "status": 200,
@@ -1522,13 +1883,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/Soham%20Das%20Content%20team.jpg",
       "filename": "Soham Das Content team.jpg",
       "status": 200,
@@ -1539,13 +1900,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/Srinjan_Content%20(1).jpg",
       "filename": "Srinjan_Content (1).jpg",
       "status": 200,
@@ -1556,13 +1917,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/abhidipan.png",
       "filename": "abhidipan.png",
       "status": 200,
@@ -1573,13 +1934,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/agnish.png",
       "filename": "agnish.png",
       "status": 200,
@@ -1590,13 +1951,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/agnish2.png",
       "filename": "agnish2.png",
       "status": 200,
@@ -1607,13 +1968,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/arya_speaking.png",
       "filename": "arya_speaking.png",
       "status": 200,
@@ -1624,13 +1985,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/sauptik.png",
       "filename": "sauptik.png",
       "status": 200,
@@ -1641,13 +2002,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/sayandeep.png",
       "filename": "sayandeep.png",
       "status": 200,
@@ -1658,13 +2019,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/shinjan.png",
       "filename": "shinjan.png",
       "status": 200,
@@ -1675,13 +2036,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/soumyadeep.png",
       "filename": "soumyadeep.png",
       "status": 200,
@@ -1692,13 +2053,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/ALUMNI/assets/soumyadeepmanna.png",
       "filename": "soumyadeepmanna.png",
       "status": 200,
@@ -1709,13 +2070,13 @@
         "http://localhost:4173/alumni"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/CONNEXION%2725%20Round%201%20results.jpeg",
       "filename": "CONNEXION'25 Round 1 results.jpeg",
       "status": 200,
@@ -1726,13 +2087,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Code%20To%20Filght/BOOTCAMP-report.pdf",
       "filename": "BOOTCAMP-report.pdf",
       "status": 200,
@@ -1743,13 +2104,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Code%20To%20Filght/IMG-20260418-WA0012.jpg",
       "filename": "IMG-20260418-WA0012.jpg",
       "status": 200,
@@ -1760,13 +2121,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Code%20To%20Filght/IMG-20260522-WA0018.jpg",
       "filename": "IMG-20260522-WA0018.jpg",
       "status": 200,
@@ -1777,13 +2138,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Code%20To%20Filght/ctf1.png",
       "filename": "ctf1.png",
       "status": 200,
@@ -1794,13 +2155,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Code%20To%20Filght/ctf2.png",
       "filename": "ctf2.png",
       "status": 200,
@@ -1811,13 +2172,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/INNOVATIA.jpg",
       "filename": "INNOVATIA.jpg",
       "status": 200,
@@ -1829,13 +2190,13 @@
         "http://localhost:4173/events/innovatia"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Innovatia%20Workshop%20Report.pdf",
       "filename": "Innovatia Workshop Report.pdf",
       "status": 200,
@@ -1846,13 +2207,13 @@
         "http://localhost:4173/events/innovatia"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Innovatia1.jpeg",
       "filename": "Innovatia1.jpeg",
       "status": 200,
@@ -1863,13 +2224,13 @@
         "http://localhost:4173/events/innovatia"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/LOTR25/lotr1.jpg",
       "filename": "lotr1.jpg",
       "status": 200,
@@ -1881,13 +2242,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/LOTR25/lotr2.jpg",
       "filename": "lotr2.jpg",
       "status": 200,
@@ -1898,13 +2259,13 @@
         "http://localhost:4173/events/lord-of-the-rings-2025"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/LOTR25/lotr3.jpg",
       "filename": "lotr3.jpg",
       "status": 200,
@@ -1916,13 +2277,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/LOTR25/lotr4.jpg",
       "filename": "lotr4.jpg",
       "status": 200,
@@ -1933,13 +2294,13 @@
         "http://localhost:4173/events/lord-of-the-rings-2025"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/LOTR25/lotr5.jpg",
       "filename": "lotr5.jpg",
       "status": 200,
@@ -1950,13 +2311,13 @@
         "http://localhost:4173/events/lord-of-the-rings-2025"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/Bidwars/IoT_BidWars_2026_Report_final.pdf",
       "filename": "IoT_BidWars_2026_Report_final.pdf",
       "status": 200,
@@ -1967,13 +2328,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/Bidwars/bw1.png",
       "filename": "bw1.png",
       "status": 200,
@@ -1984,13 +2345,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/Bidwars/bw2.png",
       "filename": "bw2.png",
       "status": 200,
@@ -2001,13 +2362,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/Bidwars/bw3.png",
       "filename": "bw3.png",
       "status": 200,
@@ -2018,13 +2379,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/Bidwars/bw4.png",
       "filename": "bw4.png",
       "status": 200,
@@ -2035,13 +2396,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/LOTR/11.jpeg",
       "filename": "11.jpeg",
       "status": 200,
@@ -2052,13 +2413,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/LOTR/15.jpeg",
       "filename": "15.jpeg",
       "status": 200,
@@ -2069,13 +2430,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/LOTR/16.jpeg",
       "filename": "16.jpeg",
       "status": 200,
@@ -2086,13 +2447,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/LOTR/18.jpeg",
       "filename": "18.jpeg",
       "status": 200,
@@ -2103,13 +2464,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/Srijan%2026/LOTR/LoTR_2026_final_FINAL.pdf",
       "filename": "LoTR_2026_final_FINAL.pdf",
       "status": 200,
@@ -2120,13 +2481,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/bidwars_poster.jpg",
       "filename": "bidwars_poster.jpg",
       "status": 200,
@@ -2138,13 +2499,13 @@
         "http://localhost:4173/events/iota-bidwars"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/brochure_connexion25.pdf",
       "filename": "brochure_connexion25.pdf",
       "status": 200,
@@ -2155,13 +2516,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/connexion.png",
       "filename": "connexion.png",
       "status": 200,
@@ -2173,13 +2534,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/drone.png",
       "filename": "drone.png",
       "status": 200,
@@ -2190,13 +2551,13 @@
         "http://localhost:4173/events"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/droneworkshop.png",
       "filename": "droneworkshop.png",
       "status": 200,
@@ -2207,13 +2568,13 @@
         "http://localhost:4173/events/drone-workshop"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/innovatia-2026-poster.png",
       "filename": "innovatia-2026-poster.png",
       "status": 200,
@@ -2224,13 +2585,13 @@
         "http://localhost:4173/events"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/innovatia2.jpeg",
       "filename": "innovatia2.jpeg",
       "status": 200,
@@ -2241,13 +2602,13 @@
         "http://localhost:4173/events/innovatia"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/innovatia3.jpeg",
       "filename": "innovatia3.jpeg",
       "status": 200,
@@ -2259,13 +2620,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota1.png",
       "filename": "iota1.png",
       "status": 200,
@@ -2277,13 +2638,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota2.png",
       "filename": "iota2.png",
       "status": 200,
@@ -2294,13 +2655,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota3.png",
       "filename": "iota3.png",
       "status": 200,
@@ -2311,13 +2672,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota4.png",
       "filename": "iota4.png",
       "status": 200,
@@ -2328,13 +2689,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota6.png",
       "filename": "iota6.png",
       "status": 200,
@@ -2345,13 +2706,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/iota7.png",
       "filename": "iota7.png",
       "status": 200,
@@ -2362,13 +2723,13 @@
         "http://localhost:4173/events/connexion"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/lotr_2025.png",
       "filename": "lotr_2025.png",
       "status": 200,
@@ -2380,13 +2741,13 @@
         "http://localhost:4173/events/lord-of-the-rings-2025"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/lotr_poster.jpg",
       "filename": "lotr_poster.jpg",
       "status": 200,
@@ -2398,13 +2759,13 @@
         "http://localhost:4173/events/lord-of-the-ring"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/orientation2023(2).jpg",
       "filename": "orientation2023(2).jpg",
       "status": 200,
@@ -2415,13 +2776,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/seminar%20%20Automotive%20Electronics%20poster.jpg",
       "filename": "seminar  Automotive Electronics poster.jpg",
       "status": 200,
@@ -2433,13 +2794,13 @@
         "http://localhost:4173/events/automotive-electronics-seminar"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/seminar%20pic1.jpg",
       "filename": "seminar pic1.jpg",
       "status": 200,
@@ -2451,13 +2812,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/seminar%20pic2.jpg",
       "filename": "seminar pic2.jpg",
       "status": 200,
@@ -2468,13 +2829,13 @@
         "http://localhost:4173/events/automotive-electronics-seminar"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/EVENTS%20(2)/images/softlanding2.jpg",
       "filename": "softlanding2.jpg",
       "status": 200,
@@ -2485,13 +2846,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Github.png",
       "filename": "Github.png",
       "status": 200,
@@ -2507,13 +2868,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Github.png",
         "http://localhost:4173/frontend/projects/images/Github.png",
         "http://localhost:4173/frontend/team/images/Github.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/IOTA.png",
       "filename": "IOTA.png",
       "status": 200,
@@ -2550,13 +2911,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/IOTA.png",
         "http://localhost:4173/frontend/projects/images/IOTA.png",
         "http://localhost:4173/frontend/team/images/IOTA.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Instagram%20(2).png",
       "filename": "Instagram (2).png",
       "status": 200,
@@ -2572,13 +2933,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/projects/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/team/images/Instagram%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/JULogo.png",
       "filename": "JULogo.png",
       "status": 200,
@@ -2615,13 +2976,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/JULogo.png",
         "http://localhost:4173/frontend/projects/images/JULogo.png",
         "http://localhost:4173/frontend/team/images/JULogo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Linkedin%20(2).png",
       "filename": "Linkedin (2).png",
       "status": 200,
@@ -2637,13 +2998,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/projects/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/team/images/Linkedin%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/aboutus.jpg",
       "filename": "aboutus.jpg",
       "status": 200,
@@ -2656,13 +3017,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/ABOUT%20US/images/aboutus.jpg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/facebook%20(2).png",
       "filename": "facebook (2).png",
       "status": 200,
@@ -2678,13 +3039,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/facebook%20(2).png",
         "http://localhost:4173/frontend/projects/images/facebook%20(2).png",
         "http://localhost:4173/frontend/team/images/facebook%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/home1.jpg",
       "filename": "home1.jpg",
       "status": 200,
@@ -2695,13 +3056,13 @@
         "http://localhost:4173/timeline"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/prizedistribution.jpg",
       "filename": "prizedistribution.jpg",
       "status": 200,
@@ -2712,13 +3073,13 @@
         "http://localhost:4173/home"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/projects.jpg",
       "filename": "projects.jpg",
       "status": 200,
@@ -2729,13 +3090,13 @@
         "http://localhost:4173/home"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/team.jpg",
       "filename": "team.jpg",
       "status": 200,
@@ -2748,13 +3109,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/ABOUT%20US/images/team.jpg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/HOME/homepage-of-iota-main/videos/IOTA%20TRAILER%202%20(1).mp4",
       "filename": "IOTA TRAILER 2 (1).mp4",
       "status": 200,
@@ -2768,13 +3129,13 @@
         "http://localhost:4173/home"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/2wheeler.jpg",
       "filename": "2wheeler.jpg",
       "status": 200,
@@ -2785,13 +3146,13 @@
         "http://localhost:4173/project/autonomous-mobility"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/4wheeler.jpg",
       "filename": "4wheeler.jpg",
       "status": 200,
@@ -2803,13 +3164,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/Github.png",
       "filename": "Github.png",
       "status": 200,
@@ -2824,13 +3185,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Github.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Github.png",
         "http://localhost:4173/frontend/team/images/Github.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/IOTA.png",
       "filename": "IOTA.png",
       "status": 200,
@@ -2845,13 +3206,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/IOTA.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/IOTA.png",
         "http://localhost:4173/frontend/team/images/IOTA.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/Instagram%20(2).png",
       "filename": "Instagram (2).png",
       "status": 200,
@@ -2866,13 +3227,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/team/images/Instagram%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/JULogo.png",
       "filename": "JULogo.png",
       "status": 200,
@@ -2887,13 +3248,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/JULogo.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/JULogo.png",
         "http://localhost:4173/frontend/team/images/JULogo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/Linkedin%20(2).png",
       "filename": "Linkedin (2).png",
       "status": 200,
@@ -2908,13 +3269,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/team/images/Linkedin%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/Robot%20Pic%201.jpg",
       "filename": "Robot Pic 1.jpg",
       "status": 200,
@@ -2925,13 +3286,13 @@
         "http://localhost:4173/project/autonomous-mobility"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/Temperlink%20img.jpeg",
       "filename": "Temperlink img.jpeg",
       "status": 200,
@@ -2944,13 +3305,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/projects/project-details/IEEE%20HART/Temperlink%20img.jpeg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/VoxVision_Secure_Voice_Assessments.pdf",
       "filename": "VoxVision_Secure_Voice_Assessments.pdf",
       "status": 200,
@@ -2961,13 +3322,13 @@
         "http://localhost:4173/project/voxvision"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/drone.jpg",
       "filename": "drone.jpg",
       "status": 200,
@@ -2979,13 +3340,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/facebook%20(2).png",
       "filename": "facebook (2).png",
       "status": 200,
@@ -3000,13 +3361,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/facebook%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/facebook%20(2).png",
         "http://localhost:4173/frontend/team/images/facebook%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/netralink-poster.png",
       "filename": "netralink-poster.png",
       "status": 200,
@@ -3017,13 +3378,13 @@
         "http://localhost:4173/project/netralink"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/netralink1.png",
       "filename": "netralink1.png",
       "status": 200,
@@ -3035,13 +3396,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/netralink2.png",
       "filename": "netralink2.png",
       "status": 200,
@@ -3052,13 +3413,13 @@
         "http://localhost:4173/project/netralink"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/netralink3.png",
       "filename": "netralink3.png",
       "status": 200,
@@ -3069,13 +3430,13 @@
         "http://localhost:4173/project/netralink"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/road_anomaly_poster.png",
       "filename": "road_anomaly_poster.png",
       "status": 200,
@@ -3087,13 +3448,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/images/spinsafe_poster.png",
       "filename": "spinsafe_poster.png",
       "status": 200,
@@ -3104,13 +3465,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/HCI%20For%20Media%20Control%20paper.pdf",
       "filename": "HCI For Media Control paper.pdf",
       "status": 200,
@@ -3121,13 +3482,13 @@
         "http://localhost:4173/project/ishara"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/NETRA-LINK%20(1).mp4",
       "filename": "NETRA-LINK (1).mp4",
       "status": 200,
@@ -3141,13 +3502,13 @@
         "http://localhost:4173/project/netralink"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately. Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/SSCS%20Rudra%20Video.mp4",
       "filename": "SSCS Rudra Video.mp4",
       "status": 200,
@@ -3163,13 +3524,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/projects/project-details/SSCS%202026/SSCS%20Rudra%20Video.mp4"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Report/document; must stay downloadable.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/User%20Manual%20ARM%20gesture.pdf",
       "filename": "User Manual ARM gesture.pdf",
       "status": 200,
@@ -3180,13 +3541,13 @@
         "http://localhost:4173/project/ishara"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/detection_results%20(1).mp4",
       "filename": "detection_results (1).mp4",
       "status": 200,
@@ -3200,13 +3561,13 @@
         "http://localhost:4173/project/road-anomaly"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/finalist%20list.jpeg",
       "filename": "finalist list.jpeg",
       "status": 200,
@@ -3217,13 +3578,13 @@
         "http://localhost:4173/project/ishara"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/temperlink-demo.mp4",
       "filename": "temperlink-demo.mp4",
       "status": 200,
@@ -3237,13 +3598,13 @@
         "http://localhost:4173/project/temperlink"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/media/voxvision.mp4",
       "filename": "voxvision.mp4",
       "status": 200,
@@ -3257,13 +3618,13 @@
         "http://localhost:4173/project/voxvision"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/project-details/IEEE%20HART/Temperlink%20img.jpeg",
       "filename": "Temperlink img.jpeg",
       "status": 200,
@@ -3276,13 +3637,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/projects/images/Temperlink%20img.jpeg"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Referenced by migrated page(s). ",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/project-details/Isharaa%20Image.jpeg",
       "filename": "Isharaa Image.jpeg",
       "status": 200,
@@ -3293,13 +3654,13 @@
         "http://localhost:4173/projects"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Keep the complete source video; delivery copy prepared separately. Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Shreyam",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/projects/project-details/SSCS%202026/SSCS%20Rudra%20Video.mp4",
       "filename": "SSCS Rudra Video.mp4",
       "status": 200,
@@ -3315,13 +3676,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/projects/media/SSCS%20Rudra%20Video.mp4"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ANKURKARMAKAR.jpg",
       "filename": "ANKURKARMAKAR.jpg",
       "status": 200,
@@ -3332,13 +3693,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/AbhilashNandi.jpeg",
       "filename": "AbhilashNandi.jpeg",
       "status": 200,
@@ -3349,13 +3710,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/AmoghSarmadhikary.jpg",
       "filename": "AmoghSarmadhikary.jpg",
       "status": 200,
@@ -3366,13 +3727,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/AnubhabBanerjee.jpg",
       "filename": "AnubhabBanerjee.jpg",
       "status": 200,
@@ -3383,13 +3744,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/AnujoyBarman.jpg",
       "filename": "AnujoyBarman.jpg",
       "status": 200,
@@ -3400,13 +3761,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Anurag.jpeg",
       "filename": "Anurag.jpeg",
       "status": 200,
@@ -3417,13 +3778,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/AnwitPatra.jpg",
       "filename": "AnwitPatra.jpg",
       "status": 200,
@@ -3434,13 +3795,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ApurbaMandal.jpg",
       "filename": "ApurbaMandal.jpg",
       "status": 200,
@@ -3451,13 +3812,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Bunty.jpg",
       "filename": "Bunty.jpg",
       "status": 200,
@@ -3468,13 +3829,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/DeepchandBanik.jpg",
       "filename": "DeepchandBanik.jpg",
       "status": 200,
@@ -3485,13 +3846,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Github.png",
       "filename": "Github.png",
       "status": 200,
@@ -3506,13 +3867,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Github.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Github.png",
         "http://localhost:4173/frontend/projects/images/Github.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/HarsithNath.jpg",
       "filename": "HarsithNath.jpg",
       "status": 200,
@@ -3523,13 +3884,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/IOTA.png",
       "filename": "IOTA.png",
       "status": 200,
@@ -3544,13 +3905,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/IOTA.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/IOTA.png",
         "http://localhost:4173/frontend/projects/images/IOTA.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Instagram%20(2).png",
       "filename": "Instagram (2).png",
       "status": 200,
@@ -3565,13 +3926,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Instagram%20(2).png",
         "http://localhost:4173/frontend/projects/images/Instagram%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/IshaniPaul.jpeg",
       "filename": "IshaniPaul.jpeg",
       "status": 200,
@@ -3582,13 +3943,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/JULogo.png",
       "filename": "JULogo.png",
       "status": 200,
@@ -3603,13 +3964,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/JULogo.png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/JULogo.png",
         "http://localhost:4173/frontend/projects/images/JULogo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Koach.png",
       "filename": "Koach.png",
       "status": 200,
@@ -3620,13 +3981,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Linkedin%20(2).png",
       "filename": "Linkedin (2).png",
       "status": 200,
@@ -3641,13 +4002,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/Linkedin%20(2).png",
         "http://localhost:4173/frontend/projects/images/Linkedin%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Nayan.png",
       "filename": "Nayan.png",
       "status": 200,
@@ -3658,13 +4019,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/PritishMondal.jpg",
       "filename": "PritishMondal.jpg",
       "status": 200,
@@ -3675,13 +4036,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ProtivaSaha.jpg",
       "filename": "ProtivaSaha.jpg",
       "status": 200,
@@ -3692,13 +4053,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ROHITSHARMA.jpeg",
       "filename": "ROHITSHARMA.jpeg",
       "status": 200,
@@ -3709,13 +4070,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/RaunakPanja.jpg",
       "filename": "RaunakPanja.jpg",
       "status": 200,
@@ -3726,13 +4087,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/RifhaYeasmin.png",
       "filename": "RifhaYeasmin.png",
       "status": 200,
@@ -3743,13 +4104,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/RitarupTripathy.jpg",
       "filename": "RitarupTripathy.jpg",
       "status": 200,
@@ -3760,13 +4121,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/RitenduSarkar.jpg",
       "filename": "RitenduSarkar.jpg",
       "status": 200,
@@ -3777,13 +4138,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/Rudra.jpg",
       "filename": "Rudra.jpg",
       "status": 200,
@@ -3794,13 +4155,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SagnikKC.jpg",
       "filename": "SagnikKC.jpg",
       "status": 200,
@@ -3811,13 +4172,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SayariSereen.jpg",
       "filename": "SayariSereen.jpg",
       "status": 200,
@@ -3828,13 +4189,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ShirshoSaha.jpg",
       "filename": "ShirshoSaha.jpg",
       "status": 200,
@@ -3845,13 +4206,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/ShreyamMarodia.jpg",
       "filename": "ShreyamMarodia.jpg",
       "status": 200,
@@ -3862,13 +4223,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SiddhiVinayak.jpg",
       "filename": "SiddhiVinayak.jpg",
       "status": 200,
@@ -3879,13 +4240,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SohamMajhi.jpg",
       "filename": "SohamMajhi.jpg",
       "status": 200,
@@ -3896,13 +4257,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SourasishMitra.jpg",
       "filename": "SourasishMitra.jpg",
       "status": 200,
@@ -3913,13 +4274,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/SwastikSaha.jpg",
       "filename": "SwastikSaha.jpg",
       "status": 200,
@@ -3930,13 +4291,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/aratrikapahari.jpg",
       "filename": "aratrikapahari.jpg",
       "status": 200,
@@ -3947,13 +4308,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/arghyapratim.jpg",
       "filename": "arghyapratim.jpg",
       "status": 200,
@@ -3964,13 +4325,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/arnabkarmakar.jpg",
       "filename": "arnabkarmakar.jpg",
       "status": 200,
@@ -3981,13 +4342,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/chandrimamondal.png",
       "filename": "chandrimamondal.png",
       "status": 200,
@@ -3998,13 +4359,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/chinmoysir.jpeg",
       "filename": "chinmoysir.jpeg",
       "status": 200,
@@ -4015,13 +4376,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 3 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/facebook%20(2).png",
       "filename": "facebook (2).png",
       "status": 200,
@@ -4036,13 +4397,13 @@
         "http://localhost:4173/frontend/ABOUT%20US/images/facebook%20(2).png",
         "http://localhost:4173/frontend/HOME/homepage-of-iota-main/images/facebook%20(2).png",
         "http://localhost:4173/frontend/projects/images/facebook%20(2).png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/groupdp.jpg",
       "filename": "groupdp.jpg",
       "status": 200,
@@ -4053,13 +4414,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/koushikkar.jpeg",
       "filename": "koushikkar.jpeg",
       "status": 200,
@@ -4070,13 +4431,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. Same SHA-256 as 1 other file(s); do not merge without review.",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/logo.png",
       "filename": "logo.png",
       "status": 200,
@@ -4089,13 +4450,13 @@
       "privacy": "unreviewed",
       "duplicateOf": [
         "http://localhost:4173/frontend/ABOUT%20US/images/logo.png"
-      ],
-      "reviewStatus": "proposed"
+      ]
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/parthiv.jpeg",
       "filename": "parthiv.jpeg",
       "status": 200,
@@ -4106,13 +4467,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/pushpalbhar.jpeg",
       "filename": "pushpalbhar.jpeg",
       "status": 200,
@@ -4123,13 +4484,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/pvsir.png",
       "filename": "pvsir.png",
       "status": 200,
@@ -4140,13 +4501,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/sahanasharmin.jpg",
       "filename": "sahanasharmin.jpg",
       "status": 200,
@@ -4157,13 +4518,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/saptarshi.jpeg",
       "filename": "saptarshi.jpeg",
       "status": 200,
@@ -4174,13 +4535,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/satyajit.jpeg",
       "filename": "satyajit.jpeg",
       "status": 200,
@@ -4191,13 +4552,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/shelimaam.jpeg",
       "filename": "shelimaam.jpeg",
       "status": 200,
@@ -4208,13 +4569,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/sohamsaha.jpg",
       "filename": "sohamsaha.jpg",
       "status": 200,
@@ -4225,13 +4586,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/soumajitbhowal.png",
       "filename": "soumajitbhowal.png",
       "status": 200,
@@ -4242,13 +4603,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/soumojeet.jpg",
       "filename": "soumojeet.jpg",
       "status": 200,
@@ -4259,13 +4620,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/soumyadipta.png",
       "filename": "soumyadipta.png",
       "status": 200,
@@ -4276,13 +4637,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/srijan.jpg",
       "filename": "srijan.jpg",
       "status": 200,
@@ -4293,13 +4654,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/subhojeetkhatua.jpeg",
       "filename": "subhojeetkhatua.jpeg",
       "status": 200,
@@ -4310,13 +4671,13 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     },
     {
       "decision": "migrate",
       "reason": "Portrait/people image; privacy and consent to be confirmed. ",
       "owner": "Ritendu",
+      "reviewStatus": "proposed",
       "url": "http://localhost:4173/frontend/team/images/tuhin.jpg",
       "filename": "tuhin.jpg",
       "status": 200,
@@ -4327,48 +4688,75 @@
         "http://localhost:4173/team"
       ],
       "privacy": "unreviewed",
-      "duplicateOf": [],
-      "reviewStatus": "proposed"
+      "duplicateOf": []
     }
   ],
   "externalEmbedsAndFiles": [
     {
+      "decision": "retain",
+      "reason": "External asset/embed from images.unsplash.com; keep only after link, license and availability review.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=2000",
       "referencedBy": [
         "http://localhost:4173/projects"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External asset/embed from images.unsplash.com; keep only after link, license and availability review.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000",
       "referencedBy": [
         "http://localhost:4173/project/voxvision"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External asset/embed from images.unsplash.com; keep only after link, license and availability review.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1000",
       "referencedBy": [
         "http://localhost:4173/projects"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://img.youtube.com/vi/2Wbw0772TUM/hqdefault.jpg",
       "referencedBy": [
         "http://localhost:4173/projects"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://img.youtube.com/vi/_hJZmpj65aE/hqdefault.jpg",
       "referencedBy": [
         "http://localhost:4173/projects"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://img.youtube.com/vi/obCufdvF3DQ/hqdefault.jpg",
       "referencedBy": [
         "http://localhost:4173/projects"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External asset/embed from www.google.com; keep only after link, license and availability review.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8675442443073!2d88.36859267531668!3d22.496625579497192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02713e32b77e77%3A0x2310e974d76cf91!2sPrajukti%20Bhavan%2F%20Civil%20Engineering%20Building!5e0!3m2!1sen!2sin!4v1707895678392!5m2!1sen!2sin",
       "referencedBy": [
         "http://localhost:4173/about",
@@ -4380,46 +4768,179 @@
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/2Wbw0772TUM",
       "referencedBy": [
         "http://localhost:4173/project/deskbot"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/CAbr993ibPs?autoplay=0&mute=0&controls=1",
       "referencedBy": [
         "http://localhost:4173/project/autonomous-mobility"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/QIFsRh24OF0?si=ufpPoKVUTanhFo5F",
       "referencedBy": [
         "http://localhost:4173/alumni"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/_8wifhkLEeQ",
       "referencedBy": [
         "http://localhost:4173/project/spinsafe"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/_hJZmpj65aE",
       "referencedBy": [
         "http://localhost:4173/project/gamepad"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/azsi713BQBk?autoplay=0&mute=0&controls=1",
       "referencedBy": [
         "http://localhost:4173/project/ishara"
       ]
     },
     {
+      "decision": "retain",
+      "reason": "External embed/file; keep as an approved embed. Check it is still available.",
+      "owner": "orchestrator",
+      "reviewStatus": "proposed",
       "url": "https://www.youtube.com/embed/obCufdvF3DQ",
       "referencedBy": [
         "http://localhost:4173/project/mediguard"
       ]
+    }
+  ],
+  "legacyServices": [
+    {
+      "id": "workshop-qa",
+      "oldPath": "/drone-workshop/qa-portal/",
+      "pageUse": "Separate Drone Workshop Q&A service and data; not part of the new app.",
+      "type": "service",
+      "decision": "exclude",
+      "reason": "Exclude workshop Q&A from the new app; retain the old service and data. The orchestrator must approve the old-URL response.",
+      "owner": "orchestrator",
+      "sourcePath": "frontend/drone-workshop/qa-portal/"
+    }
+  ],
+  "manualChecks": [
+    {
+      "section": "home",
+      "oldUrl": "http://localhost:4173/home",
+      "sourcePath": "frontend/HOME/homepage-of-iota-main/home.html",
+      "result": "pass: page served and homepage text/media references were traced."
+    },
+    {
+      "section": "about",
+      "oldUrl": "http://localhost:4173/about",
+      "sourcePath": "frontend/ABOUT US/about us.html",
+      "result": "pass: page served and visible text plus map embed were traced."
+    },
+    {
+      "section": "events",
+      "oldUrl": "http://localhost:4173/events",
+      "sourcePath": "frontend/EVENTS (2)/views/events.html",
+      "result": "pass: listing served and event detail links were traced."
+    },
+    {
+      "section": "projects",
+      "oldUrl": "http://localhost:4173/projects",
+      "sourcePath": "frontend/projects/projects.html",
+      "result": "pass: listing served; AGV link traced to autonomous-mobility detail."
+    },
+    {
+      "section": "team",
+      "oldUrl": "http://localhost:4173/team",
+      "sourcePath": "frontend/team/team.html",
+      "result": "pass: team page served; portraits and department text require identity review."
+    },
+    {
+      "section": "alumni",
+      "oldUrl": "http://localhost:4173/alumni",
+      "sourcePath": "frontend/ALUMNI/alumni.html",
+      "result": "pass: alumni page served; portraits and YouTube embed traced."
+    },
+    {
+      "section": "timeline",
+      "oldUrl": "http://localhost:4173/timeline",
+      "sourcePath": "frontend/TIMELINE/timeline.html",
+      "result": "pass: timeline page served and historical content was traced."
+    },
+    {
+      "section": "AGV detail",
+      "oldUrl": "http://localhost:4173/project/autonomous-mobility",
+      "sourcePath": "frontend/projects/project-details/autonomous-mobility.html",
+      "result": "pass: linked AGV detail served; YouTube demo and Unified AGV Tech Stack text traced."
+    },
+    {
+      "section": "history/detail",
+      "oldUrl": "http://localhost:4173/events/lord-of-the-rings-2025",
+      "sourcePath": "frontend/EVENTS (2)/views/lordOfRings25.html",
+      "result": "pass: linked historical event route served and legacy-case path recorded."
+    }
+  ],
+  "openQuestions": [
+    {
+      "category": "source-lock",
+      "question": "What orchestrator-approved source repository and immutable commit should replace the provisional local lock?",
+      "owner": "orchestrator"
+    },
+    {
+      "category": "identity",
+      "question": "Which same-name people and portraits are distinct? Do not merge until Ritendu confirms identity.",
+      "owner": "Ritendu"
+    },
+    {
+      "category": "dates",
+      "question": "Which event/project dates and current statuses are authoritative where source copy is stale or inconsistent?",
+      "owner": "orchestrator"
+    },
+    {
+      "category": "departments",
+      "question": "Confirm department and role text before migration, including the known Raunak Panja correction.",
+      "owner": "Ritendu"
+    },
+    {
+      "category": "links",
+      "question": "Confirm destinations and retirement behavior for legacy aliases, external embeds, stale actions and missing targets.",
+      "owner": "Sourasish"
+    },
+    {
+      "category": "missing-files",
+      "question": "Review every crawler review item and any JavaScript/CSS-built or unavailable asset before import.",
+      "owner": "Shreyam"
+    },
+    {
+      "category": "workshop-qa",
+      "question": "Approve the old-URL response for the excluded workshop Q&A service; keep its service and data untouched.",
+      "owner": "orchestrator"
     }
   ],
   "reviewItems": []

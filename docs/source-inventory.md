@@ -1,6 +1,9 @@
 # Source inventory
 
 - Source revision: `edfc713c0761bc4ff3cf42e29631082628fe9abc`
+- Source repository: `https://github.com/Soham-47/iota-ju.git`
+- Source lock: **unconfirmed** — The orchestrator did not provide an accessible source-lock record; local git metadata is recorded provisionally.
+- Provisional local source path: `C:/Users/khush/OneDrive/Documents/old_iota_ju/iota-ju`
 - Crawled from: `http://localhost:4173` (local copy of the legacy site; URLs below are shown relative to it)
 - Generated from `data/migration/source-manifest.json`. Do not edit the tables by hand.
 
@@ -10,9 +13,14 @@
 |---|---|---|---|---|
 | Pages | 27 | 0 | 27 | 0 |
 | Media files | 168 | 0 | 168 | 0 |
-| External embeds/files | 14 | 0 | 0 | 14 |
+| External embeds/files | 14 | 0 | 14 | 0 |
 
+Text blocks: 27
 Crawl review items: 0
+
+## Legacy services and explicit exclusions
+
+- `/drone-workshop/qa-portal/` — **exclude**: Exclude workshop Q&A from the new app; retain the old service and data. The orchestrator must approve the old-URL response. Source: `frontend/drone-workshop/qa-portal/`.
 
 ## Owner-review list
 
@@ -194,7 +202,7 @@ Everything unresolved or still only proposed, grouped by who must decide.
 - `/frontend/projects/project-details/Isharaa%20Image.jpeg` — migrate (proposed): Referenced by migrated page(s). 
 - `/frontend/projects/project-details/SSCS%202026/SSCS%20Rudra%20Video.mp4` — migrate (proposed): Keep the complete source video; delivery copy prepared separately. Same SHA-256 as 1 other file(s); do not merge without review.
 
-### orchestrator (25)
+### orchestrator (39)
 
 - `/about` — migrate (proposed): Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.
 - `/events` — migrate (proposed): Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.
@@ -221,6 +229,20 @@ Everything unresolved or still only proposed, grouped by who must decide.
 - `/project/voxvision` — migrate (proposed): Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.
 - `/projects` — migrate (proposed): Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.
 - `/timeline` — migrate (proposed): Public page; content moves to the CMS. Old URL destination to be recorded for the redirect runtime.
+- `https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=2000` — retain (proposed): External asset/embed from images.unsplash.com; keep only after link, license and availability review.
+- `https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000` — retain (proposed): External asset/embed from images.unsplash.com; keep only after link, license and availability review.
+- `https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1000` — retain (proposed): External asset/embed from images.unsplash.com; keep only after link, license and availability review.
+- `https://img.youtube.com/vi/2Wbw0772TUM/hqdefault.jpg` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://img.youtube.com/vi/_hJZmpj65aE/hqdefault.jpg` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://img.youtube.com/vi/obCufdvF3DQ/hqdefault.jpg` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8675442443073!2d88.36859267531668!3d22.496625579497192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02713e32b77e77%3A0x2310e974d76cf91!2sPrajukti%20Bhavan%2F%20Civil%20Engineering%20Building!5e0!3m2!1sen!2sin!4v1707895678392!5m2!1sen!2sin` — retain (proposed): External asset/embed from www.google.com; keep only after link, license and availability review.
+- `https://www.youtube.com/embed/2Wbw0772TUM` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/CAbr993ibPs?autoplay=0&mute=0&controls=1` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/QIFsRh24OF0?si=ufpPoKVUTanhFo5F` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/_8wifhkLEeQ` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/_hJZmpj65aE` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/azsi713BQBk?autoplay=0&mute=0&controls=1` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
+- `https://www.youtube.com/embed/obCufdvF3DQ` — retain (proposed): External embed/file; keep as an approved embed. Check it is still available.
 
 ## Exclusions
 
@@ -472,20 +494,46 @@ _None recorded yet. The workshop Q&A backend must be recorded here with an owner
 
 | URL | Used on | Decision | Owner |
 |---|---|---|---|
-| https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=2000 | `/projects` | undefined |  |
-| https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000 | `/project/voxvision` | undefined |  |
-| https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1000 | `/projects` | undefined |  |
-| https://img.youtube.com/vi/2Wbw0772TUM/hqdefault.jpg | `/projects` | undefined |  |
-| https://img.youtube.com/vi/_hJZmpj65aE/hqdefault.jpg | `/projects` | undefined |  |
-| https://img.youtube.com/vi/obCufdvF3DQ/hqdefault.jpg | `/projects` | undefined |  |
-| https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8675442443073!2d88.36859267531668!3d22.496625579497192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02713e32b77e77%3A0x2310e974d76cf91!2sPrajukti%20Bhavan%2F%20Civil%20Engineering%20Building!5e0!3m2!1sen!2sin!4v1707895678392!5m2!1sen!2sin | `/about`, `/alumni`, `/events`, `/home`, `/projects`, `/team` | undefined |  |
-| https://www.youtube.com/embed/2Wbw0772TUM | `/project/deskbot` | undefined |  |
-| https://www.youtube.com/embed/CAbr993ibPs?autoplay=0&mute=0&controls=1 | `/project/autonomous-mobility` | undefined |  |
-| https://www.youtube.com/embed/QIFsRh24OF0?si=ufpPoKVUTanhFo5F | `/alumni` | undefined |  |
-| https://www.youtube.com/embed/_8wifhkLEeQ | `/project/spinsafe` | undefined |  |
-| https://www.youtube.com/embed/_hJZmpj65aE | `/project/gamepad` | undefined |  |
-| https://www.youtube.com/embed/azsi713BQBk?autoplay=0&mute=0&controls=1 | `/project/ishara` | undefined |  |
-| https://www.youtube.com/embed/obCufdvF3DQ | `/project/mediguard` | undefined |  |
+| https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=2000 | `/projects` | retain (proposed) | orchestrator |
+| https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=2000 | `/project/voxvision` | retain (proposed) | orchestrator |
+| https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1000 | `/projects` | retain (proposed) | orchestrator |
+| https://img.youtube.com/vi/2Wbw0772TUM/hqdefault.jpg | `/projects` | retain (proposed) | orchestrator |
+| https://img.youtube.com/vi/_hJZmpj65aE/hqdefault.jpg | `/projects` | retain (proposed) | orchestrator |
+| https://img.youtube.com/vi/obCufdvF3DQ/hqdefault.jpg | `/projects` | retain (proposed) | orchestrator |
+| https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8675442443073!2d88.36859267531668!3d22.496625579497192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02713e32b77e77%3A0x2310e974d76cf91!2sPrajukti%20Bhavan%2F%20Civil%20Engineering%20Building!5e0!3m2!1sen!2sin!4v1707895678392!5m2!1sen!2sin | `/about`, `/alumni`, `/events`, `/home`, `/projects`, `/team` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/2Wbw0772TUM | `/project/deskbot` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/CAbr993ibPs?autoplay=0&mute=0&controls=1 | `/project/autonomous-mobility` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/QIFsRh24OF0?si=ufpPoKVUTanhFo5F | `/alumni` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/_8wifhkLEeQ | `/project/spinsafe` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/_hJZmpj65aE | `/project/gamepad` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/azsi713BQBk?autoplay=0&mute=0&controls=1 | `/project/ishara` | retain (proposed) | orchestrator |
+| https://www.youtube.com/embed/obCufdvF3DQ | `/project/mediguard` | retain (proposed) | orchestrator |
+
+## Manual trace checks
+
+| Section | Old URL | Source path | Result |
+|---|---|---|---|
+| home | `/home` | `frontend/HOME/homepage-of-iota-main/home.html` | pass: page served and homepage text/media references were traced. |
+| about | `/about` | `frontend/ABOUT US/about us.html` | pass: page served and visible text plus map embed were traced. |
+| events | `/events` | `frontend/EVENTS (2)/views/events.html` | pass: listing served and event detail links were traced. |
+| projects | `/projects` | `frontend/projects/projects.html` | pass: listing served; AGV link traced to autonomous-mobility detail. |
+| team | `/team` | `frontend/team/team.html` | pass: team page served; portraits and department text require identity review. |
+| alumni | `/alumni` | `frontend/ALUMNI/alumni.html` | pass: alumni page served; portraits and YouTube embed traced. |
+| timeline | `/timeline` | `frontend/TIMELINE/timeline.html` | pass: timeline page served and historical content was traced. |
+| AGV detail | `/project/autonomous-mobility` | `frontend/projects/project-details/autonomous-mobility.html` | pass: linked AGV detail served; YouTube demo and Unified AGV Tech Stack text traced. |
+| history/detail | `/events/lord-of-the-rings-2025` | `frontend/EVENTS (2)/views/lordOfRings25.html` | pass: linked historical event route served and legacy-case path recorded. |
+
+## Open questions and blockers
+
+| Category | Question | Owner |
+|---|---|---|
+| source-lock | What orchestrator-approved source repository and immutable commit should replace the provisional local lock? | orchestrator |
+| identity | Which same-name people and portraits are distinct? Do not merge until Ritendu confirms identity. | Ritendu |
+| dates | Which event/project dates and current statuses are authoritative where source copy is stale or inconsistent? | orchestrator |
+| departments | Confirm department and role text before migration, including the known Raunak Panja correction. | Ritendu |
+| links | Confirm destinations and retirement behavior for legacy aliases, external embeds, stale actions and missing targets. | Sourasish |
+| missing-files | Review every crawler review item and any JavaScript/CSS-built or unavailable asset before import. | Shreyam |
+| workshop-qa | Approve the old-URL response for the excluded workshop Q&A service; keep its service and data untouched. | orchestrator |
 
 ## Crawl review items
 
