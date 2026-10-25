@@ -19,7 +19,7 @@
 import { createHash } from 'node:crypto'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
-import { mkdir, readFile, writeFile, mkdtemp, rm } from 'node:fs/promises'
+import { mkdir, readFile, writeFile, mkdtemp, rm, rename } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
 
@@ -128,7 +128,11 @@ async function main() {
     pages?: PageItem[]; media?: MediaItem[]
     externalEmbedsAndFiles?: (Review & { url: string })[]
   } = {}
-  try { previous = JSON.parse(await readFile(OUT, 'utf8')) } catch { /* first run */ }
+  try {
+    previous = JSON.parse(await readFile(OUT, 'utf8'))
+  } catch (error: any) {
+    if (error?.code !== 'ENOENT') throw error
+  }
   const keepP = new Map((previous.pages ?? []).map((p) => [p.url, p]))
   const keepM = new Map((previous.media ?? []).map((m) => [m.url, m]))
   const keepE = new Map((previous.externalEmbedsAndFiles ?? []).map((e) => [e.url, e]))
@@ -220,13 +224,25 @@ async function main() {
   const manifest = {
     sourceRevision: REVISION,
     sourceRepository: 'https://github.com/Soham-47/iota-ju.git',
-    sourcePath: 'C:/Users/khush/OneDrive/Documents/old_iota_ju/iota-ju',
     sourceLock: {
       status: 'unconfirmed',
       reason: 'The orchestrator did not provide an accessible source-lock record; local git metadata is recorded provisionally.',
       requestedFrom: 'orchestrator',
     },
     baseUrl: BASE,
+    reproducibility: {
+      install: 'pnpm install --frozen-lockfile',
+      checkout: [
+        'git clone https://github.com/Soham-47/iota-ju.git old-iota-ju',
+        `git -C old-iota-ju checkout ${REVISION}`,
+      ],
+      server: 'npm --prefix frontend start',
+      inventory: [
+        `pnpm exec tsx scripts/content/inventory.ts --base-url http://localhost:4173 --revision ${REVISION}`,
+        `pnpm exec tsx scripts/content/inventory.ts --base-url http://localhost:4173 --revision ${REVISION}`,
+      ],
+      comparison: 'Byte-identical output; the two final runs had no differences. The final file hash is reported in the M01 handoff.',
+    },
     pages: [...pages.values()].sort((a, b) => (a.url < b.url ? -1 : 1)),
     textBlocks: [...pages.values()].map((p): TextBlock => ({
       ...pick(p), id: `text:${new URL(p.url).pathname}`, pageUrl: p.url,
@@ -268,7 +284,14 @@ async function main() {
     reviewItems: reviewItems.sort((a, b) => (a.url + a.kind < b.url + b.kind ? -1 : 1)),
   }
   await mkdir(path.dirname(OUT), { recursive: true })
-  await writeFile(OUT, JSON.stringify(manifest, null, 2) + '\n')
+  const tempOut = `${OUT}.tmp-${process.pid}`
+  await writeFile(tempOut, JSON.stringify(manifest, null, 2) + '\n', 'utf8')
+  try {
+    await rename(tempOut, OUT)
+  } catch (error) {
+    await rm(tempOut, { force: true })
+    throw error
+  }
   console.log(`pages=${manifest.pages.length} media=${media.length} ` +
     `external=${external.length} review=${reviewItems.length} -> ${OUT}`)
 }

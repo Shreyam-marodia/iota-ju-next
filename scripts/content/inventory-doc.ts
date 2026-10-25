@@ -38,9 +38,16 @@ async function main() {
   L.push(`- Source revision: \`${m.sourceRevision}\``)
   L.push(`- Source repository: \`${m.sourceRepository}\``)
   L.push(`- Source lock: **${m.sourceLock?.status ?? 'unknown'}** — ${esc(m.sourceLock?.reason ?? '')}`)
-  L.push(`- Provisional local source path: \`${m.sourcePath ?? '(not recorded)'}\``)
   L.push(`- Crawled from: \`${base}\` (local copy of the legacy site; URLs below are shown relative to it)`)
   L.push('- Generated from `data/migration/source-manifest.json`. Do not edit the tables by hand.', '')
+
+  L.push('## Reproducible checkout and checks', '')
+  if (m.reproducibility?.install) L.push(`- Install: \`${esc(m.reproducibility.install)}\``)
+  for (const c of m.reproducibility?.checkout ?? []) L.push(`- \`${esc(c)}\``)
+  if (m.reproducibility?.server) L.push(`- Server: \`${esc(m.reproducibility.server)}\``)
+  for (const c of m.reproducibility?.inventory ?? []) L.push(`- Inventory: \`${esc(c)}\``)
+  if (m.reproducibility?.comparison) L.push(`- Comparison: ${esc(m.reproducibility.comparison)}`)
+  L.push('')
 
   L.push('## Summary', '', '| Kind | Total | Unresolved | Proposed (unconfirmed) | Confirmed |', '|---|---|---|---|---|')
   for (const [name, list] of [['Pages', pages], ['Media files', media], ['External embeds/files', ext]] as [string, R[]][]) {

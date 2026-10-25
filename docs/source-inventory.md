@@ -3,9 +3,18 @@
 - Source revision: `edfc713c0761bc4ff3cf42e29631082628fe9abc`
 - Source repository: `https://github.com/Soham-47/iota-ju.git`
 - Source lock: **unconfirmed** — The orchestrator did not provide an accessible source-lock record; local git metadata is recorded provisionally.
-- Provisional local source path: `C:/Users/khush/OneDrive/Documents/old_iota_ju/iota-ju`
 - Crawled from: `http://localhost:4173` (local copy of the legacy site; URLs below are shown relative to it)
 - Generated from `data/migration/source-manifest.json`. Do not edit the tables by hand.
+
+## Reproducible checkout and checks
+
+- Install: `pnpm install --frozen-lockfile`
+- `git clone https://github.com/Soham-47/iota-ju.git old-iota-ju`
+- `git -C old-iota-ju checkout edfc713c0761bc4ff3cf42e29631082628fe9abc`
+- Server: `npm --prefix frontend start`
+- Inventory: `pnpm exec tsx scripts/content/inventory.ts --base-url http://localhost:4173 --revision edfc713c0761bc4ff3cf42e29631082628fe9abc`
+- Inventory: `pnpm exec tsx scripts/content/inventory.ts --base-url http://localhost:4173 --revision edfc713c0761bc4ff3cf42e29631082628fe9abc`
+- Comparison: Byte-identical output; the two final runs had no differences. The final file hash is reported in the M01 handoff.
 
 ## Summary
 

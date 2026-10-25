@@ -5,7 +5,6 @@
  *
  *   npx tsx scripts/content/decide.ts --qa-pattern "workshop|q-?and-?a|qna"
  *   # review data/migration/source-manifest.json (or docs/source-inventory.md)
- *   npx tsx scripts/content/decide.ts --confirm-proposed
  *
  * Owners use the roles in the handout: orchestrator (content ambiguity,
  * exclusions), Ritendu (people identity), Sourasish (redirects), Shreyam
@@ -19,7 +18,6 @@ const arg = (n: string, d?: string) => {
 }
 const MANIFEST = arg('manifest', 'data/migration/source-manifest.json') as string
 const QA = arg('qa-pattern') ? new RegExp(arg('qa-pattern') as string, 'i') : null
-const CONFIRM = process.argv.includes('--confirm-proposed')
 
 type Item = {
   url: string; decision: string; reason: string; owner: string
@@ -35,15 +33,8 @@ const propose = (it: Item, decision: string, reason: string, owner: string) => {
 async function main() {
   const m = JSON.parse(await readFile(MANIFEST, 'utf8'))
 
-  if (CONFIRM) {
-    let n = 0
-    for (const list of [m.pages, m.media, m.externalEmbedsAndFiles] as Item[][])
-      for (const it of list)
-        if (it.reviewStatus === 'proposed') { it.reviewStatus = 'confirmed'; n++ }
-    await writeFile(MANIFEST, JSON.stringify(m, null, 2) + '\n')
-    console.log(`confirmed ${n} proposed decisions`)
-    return
-  }
+  if (process.argv.includes('--confirm-proposed'))
+    throw new Error('Blanket confirmation is disabled. Confirm reviewed items explicitly in the manifest with owner evidence.')
 
   const isQa = (u: string) => !!QA && QA.test(pathOf(u))
   const isPeople = (u: string) => /^\/(team|alumni)(\/|$)/i.test(pathOf(u))
