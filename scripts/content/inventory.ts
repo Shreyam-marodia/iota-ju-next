@@ -2,9 +2,10 @@
  * M01 inventory: crawl the legacy IOTA JU site (or a read-only snapshot served
  * locally) and write data/migration/source-manifest.json.
  *
- * Usage:
- *   pnpm tsx scripts/content/inventory.ts \
- *     --base-url https://www.iotaju.com --revision "<commit-or-export-date>"
+ * Usage (after starting the pinned legacy checkout with
+ * `npm --prefix frontend start`):
+ *   pnpm exec tsx scripts/content/inventory.ts \
+ *     --base-url http://localhost:4173 --revision "<legacy-commit-sha>"
  *
  * Design rules (from the handout):
  *  - Deterministic: no timestamps, everything sorted, same input => same bytes.
